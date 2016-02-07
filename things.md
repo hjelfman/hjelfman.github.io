@@ -12,19 +12,30 @@ permalink: /things/
 <ul>
 	<li><a href="https://github.com/ethanhelfman/CompSci_Backup">AP Compsci Java Code</a></li>
 	<li><a href="https://github.com/ethanhelfman/scripts">Personal Scripts</a></li>
-	<li>Computer Setup</li>
 </ul>
 
 Windows Computer Setup
+	<br>
 	-Firefox
+	<br>
 	-7Zip
+	<br>
 	-Skype
+	<br>
 	-Steam
+	<br>
 		-Civ 5
+		<br>
 		-TF2
+		<br>
 	-Malwarebytes
+	<br>
 	-Eclipse
+	<br>
 	-JDK/JRE
+	<br>
 	-VLC
+	<br>
 	-Notepad++
+	<br>
 	-Choclatey

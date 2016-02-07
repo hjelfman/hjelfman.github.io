@@ -16,26 +16,26 @@ permalink: /things/
 
 Windows Computer Setup
 	<br>
-	-Firefox
+	&emsp; -Firefox
 	<br>
-	-7Zip
+	&emsp; -7Zip
 	<br>
-	-Skype
+	&emsp; -Skype
 	<br>
-	-Steam
+	&emsp; -Steam
 	<br>
-		-Civ 5
+		&emsp; &emsp; -Civ 5
 		<br>
-		-TF2
+		&emsp; &emsp; -TF2
 		<br>
-	-Malwarebytes
+	&emsp; -Malwarebytes
 	<br>
-	-Eclipse
+	&emsp; -Eclipse
 	<br>
-	-JDK/JRE
+	&emsp; -JDK/JRE
 	<br>
-	-VLC
+	&emsp; -VLC
 	<br>
-	-Notepad++
+	&emsp; -Notepad++
 	<br>
-	-Choclatey
+	&emsp; -Choclatey

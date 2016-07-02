@@ -6,7 +6,7 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 * [Github](http://github.com/ethanhelfman)
 * [KeyBase]()
 
-#Projects
+### Projects
 <table>
 	<tr>
 		<td>Project</td>

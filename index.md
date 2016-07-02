@@ -4,12 +4,12 @@ layout: default
 
 Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use introductory page.
 <ul>
-	<li>[Github](http://github.com/ethanhelfman)</li>
-	<li>[KeyBase]()</li>
+	<li><a href="http://github.com/ethanhelfman/">Github</a></li>
+	<li><a href="">Keybase</a></li>
 </ul>
 
 ## Projects
-<table>
+<table width="100%">
 	<tr>
 		<td>Project</td>
 		<td>Description</td>
@@ -17,19 +17,19 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 		<td>Language</td>
 	</tr>
 	<tr>
-		<td>[InstaGet](https://github.com/ethanhelfman/InstaGet)</td>
+		<td><a href="https://github.com/ethanhelfman/InstaGet">InstaGet</a></td>
 		<td>InstaGet downloads all photos from a public Instagram account</td>
 		<td>Windows</td>
 		<td>Java/Python</td>
 	</tr>
 	<tr>
-		<td>[MarkovTester](https://github.com/ethanhelfman/MarkovTester)</td>
+		<td><a href="https://github.com/ethanhelfman/MarkovTester">MarkovTester</a></td>
 		<td>MarkovTester creates semicoherent sentences from a provided input</td>
 		<td>All platforms</td>
 		<td>Java</td>
 	</tr>
 	<tr>
-		<td>[RSATester](https://github.com/ethanhelfman/RSATest)</td>
+		<td><a href="https://github.com/ethanhelfman/RSATest">RSATester</a></td>
 		<td>RSATester is a simple implementation of RSA</td>
 		<td>All platforms</td>
 		<td>Java</td>

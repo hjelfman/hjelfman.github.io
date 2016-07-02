@@ -1,4 +1,0 @@
-Sitemap: http://ethanhelfman.github.io/sitemapindex.xml
-
-User-Agent: *
-Host: ethanhelfman.github.io

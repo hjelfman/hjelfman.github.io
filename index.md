@@ -35,3 +35,16 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 		<td>Java</td>
 	</tr>
 </table>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js></script>
+<script type="text/javascript" src="FeedEk/js/FeedEk.js"></script>
+<div id="divRss">
+	$('#divRss').FeedEk({
+    FeedUrl : 'http://jquery-plugins.net/rss',
+    MaxCount : 1,
+    ShowDesc : true,
+    ShowPubDate:true,
+    DescCharacterLimit:100,
+    TitleLinkTarget:'_blank'
+  });
+</div>

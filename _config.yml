@@ -1,8 +1,7 @@
 # Site settings
-title: Solo, a Jekyll Theme
-tag_text: Solo
-description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
-
+title: Ethan Helfman
+tag_text: 45 43 48
+description: Ethan Helfman
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]

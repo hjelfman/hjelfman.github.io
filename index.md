@@ -3,10 +3,12 @@ layout: default
 ---
 
 Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use introductory page.
-* [Github](http://github.com/ethanhelfman)
-* [KeyBase]()
+<ul>
+	<li>[Github](http://github.com/ethanhelfman)</li>
+	<li>[KeyBase]()</li>
+</ul>
 
-### Projects
+## Projects
 <table>
 	<tr>
 		<td>Project</td>

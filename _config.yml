@@ -1,14 +1,10 @@
 # Site settings
-title: slim
-baseurl: "/slim"
-url: "http://syaning.com"
+title: Solo, a Jekyll Theme
+tag_text: Solo
+description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
 
 # Build settings
-kramdown:
-  input: GFM
-permalink: pretty
-
-# Third-party services
-# just leave someone empty to disable it
-google_analytics: 
-disqus_shortname: 
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed

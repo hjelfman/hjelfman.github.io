@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-
+<script type="text/javascript" src="FeedEk/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="FeedEk/js/FeedEk.js"></script>
 Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use introductory page.
 <ul>
 	<li><a href="http://github.com/ethanhelfman/">Github</a></li>
@@ -36,8 +37,7 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 	</tr>
 </table>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js></script>
-<script type="text/javascript" src="FeedEk/js/FeedEk.js"></script>
+
 <div id="divRss">
 	$('#divRss').FeedEk({
     FeedUrl : 'http://jquery-plugins.net/rss',

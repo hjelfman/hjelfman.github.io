@@ -38,16 +38,17 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 </table>
 
 ## Latest Commits
-<div id="divRss">
+<div id="jQuery">
 	<script type="text/javascript">	
 		$.get(https://github.com/ethanhelfman.atom, function (data) {
-	 	$(data).find("entry").each(function () { // or "item" or whatever suits your feed
-		var el = $(this);
-		console.log("------------------------");
-		console.log("title      : " + el.find("title").text());
-		console.log("author     : " + el.find("author").text());
-		console.log("description: " + el.find("description").text());
-    });
-});
+	 		$(data).find("entry").each(function () { // or "item" or whatever suits your feed
+				var el = $(this);
+				
+				console.log("------------------------");
+				console.log("title      : " + el.find("title").text());
+				console.log("author     : " + el.find("author").text());
+				console.log("description: " + el.find("description").text());
+    			});
+		});
 	</script>
 </div>

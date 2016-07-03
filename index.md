@@ -41,7 +41,7 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 <div id="divRss">
 	<script type="text/javascript">	
 		$('#divRss').FeedEk({
-		FeedUrl: 'https://github.com/ethanhelfman.atom',
+		FeedUrl: 'http://www.devtacular.com/utilities/atomtorss/?url=http%3a%2f%2fgithub.com%2fethanhelfman.atom'',
 		MaxCount: 5,
 		ShowDesc: true,
 		ShowPubDate: false,

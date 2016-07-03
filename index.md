@@ -37,12 +37,12 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 	</tr>
 </table>
 
-
+## Latest Commit
 <div id="divRss">
 	<script type="text/javascript">	
 		$('#divRss').FeedEk({
-		FeedUrl: 'http://jquery-plugins.net/rss',
-		MaxCount: 3,
+		FeedUrl: 'https://github.com/username.atom?token=token',
+		MaxCount: 1,
 		ShowDesc: true,
 		ShowPubDate: false,
 		DescCharacterLimit: 100

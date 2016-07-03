@@ -39,11 +39,13 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 
 
 <div id="divRss">
-	$('#divRss').FeedEk({
-	FeedUrl: 'http://jquery-plugins.net/rss',
-	MaxCount: 3,
-	ShowDesc: true,
-	ShowPubDate: false,
-	DescCharacterLimit: 100
-	});
+	<script type="text/javascript">	
+		$('#divRss').FeedEk({
+		FeedUrl: 'http://jquery-plugins.net/rss',
+		MaxCount: 3,
+		ShowDesc: true,
+		ShowPubDate: false,
+		DescCharacterLimit: 100
+		});
+	</script>
 </div>

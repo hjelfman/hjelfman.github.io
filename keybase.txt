@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/hjelfman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ethanhelfman.github.io
+  * I am hjelfman (https://keybase.io/hjelfman) on keybase.
+  * I have a public key with fingerprint 755F B89E D5C1 5C0E C85D  5F8F 297D 7EC7 56E1 3B20
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b8f390c66c8480b65bf0a6dce62f7828c8373b417506407891fb831141386db70a",
+            "fingerprint": "755fb89ed5c15c0ec85d5f8f297d7ec756e13b20",
+            "host": "keybase.io",
+            "key_id": "297d7ec756e13b20",
+            "kid": "0101b8f390c66c8480b65bf0a6dce62f7828c8373b417506407891fb831141386db70a",
+            "uid": "9ef14ccc312db232606c29ba6f14e719",
+            "username": "hjelfman"
+        },
+        "service": {
+            "hostname": "ethanhelfman.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1468022510,
+    "expire_in": 157680000,
+    "prev": "82c12654b8b24952c9b447ec5878146d25b43a202cea563a3496f76e8fc68f95",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIwAnicrZJbSBVBGMePpklWJlgQRRAboYbKzuzO7OyhohN0M3sQu9ApOO7Mzno2
+dfd0zh7LxJAi6EKRXSiSJCkxggqkhwgLL90jooceolLCHqSLaRbdtVmrtx6bl2H+
+/L/f/L+P7+bUCYHMlFvzqkdnhVufpzzoakkGNjQsHqyTqGvWSsE6qZKPX7zK5Akv
+UmmbUlCSgQwosRRdZhgzohKZYkQt2cAm4xhaGoGEEUVTqAo0JGNV1ogOLEoUAFSg
+EGxSTTakAsmynQoej8VtxxNYDSHh0bmJGEBM5owgE1nEgrpmapxpCHOgUCiLwqib
+8CtEOGokeJHtCk08IuPx/uH/z7mT4zidW0BljCkAmhQqEMuYQZ0aWMhcA7pvTPC4
+Y1Rz4Y5u4VVWteFI9QWSUGtsxv3B+p38cXAvajjR366iCtuLJunvzmJx13OZW+VT
+PC+WCPoMrzbmF23jNPIHF6G2Y4qJiooaHk/YriMFgXAyz/b5QMVEhhABuUDi22N2
+nEds34E0oYvj/8NrBJJABiBGKiUUqjqCTKeqKgaKiEYExISIqooBZci4gbBiKKqO
+LQ1zYjFMLB1JfoNbHVcKqiKmUSGQCbvCMbxknEv13Z2b0wIpmYGJ6an+pgUyJ2X/
+3b/dYxnfJ37Ivbl/7ODncENw+tvc/LxdLXkZaWPoVfePGzuM1vmrcHF7z/3Qqcai
+TRb7Gn4dwD3rNoQHml/+zKoc3lhSWHK0sPROY+HkZTkj0vXNK7J72OlJtT+GyhYN
+73nzqX8kJzp4oe/Y4sbHl7T0lTfe9V7pnHl8ydiFF6V1+UfOh9rPLI929CpXygrv
+nDx779C6kukzup7S4JrQ5avNTvmCUPHktmB614lz3s/Zc3eGXs2bm/M1kPXwUetA
+U2p157P605uu95evBjMWfjw/dP/b2vdLO77cLn2Zd3FOrC+MIwfItNGmaxPWtz3p
+PzC8d587WH5kbfrdnMO5xcnu2VlZ9m5zykjDtI+/ALUuRAw=
+=P9Zb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hjelfman
+
+==================================================================

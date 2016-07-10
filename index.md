@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<script type="text/javascript" src="FeedEk/js/jquery-1.9.1.min.js"></script>
+
 Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use introductory page.
 <ul>
 	<li><a href="http://github.com/ethanhelfman/">Github</a></li>
@@ -37,7 +37,7 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 </table>
 
 ## Latest Commits
-<div id="github widget">
+<div id="github widget" style="height:25%;>
 	<iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=ethanhelfman&type=user" width="100%" height="100%">
 	</iframe>
 </div>

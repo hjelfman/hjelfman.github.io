@@ -37,17 +37,5 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 </table>
 
 ## Latest Commits
-<div id="jQuery">
-	<script type="text/javascript">
-		$.get('https://github.com/ethanhelfman.atom', function (data) {
-	 		$(data).find("entry").each(function () { // or "item" or whatever suits your feed
-				var el = $(this);
-
-				console.log("------------------------");
-				console.log("title      : " + el.find("title").text());
-				console.log("author     : " + el.find("author").text());
-				console.log("description: " + el.find("description").text());
-    			});
-		});
-	</script>
-</div>
+<iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless"
+src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=ethanhelfman&type=user" width="300" height="300"></iframe>

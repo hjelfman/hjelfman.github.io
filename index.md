@@ -38,6 +38,6 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 
 ## Latest Commits
 <div id="github widget">
-	<iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=ethanhelfman&type=user" width="100%">
+	<iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=ethanhelfman&type=user" width="100%" height="500px">
 	</iframe>
 </div>

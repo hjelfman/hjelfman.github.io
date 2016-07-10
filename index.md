@@ -5,7 +5,7 @@ layout: default
 Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use introductory page.
 <ul>
 	<li><a href="http://github.com/ethanhelfman/">Github</a></li>
-	<li><a href="">Keybase</a></li>
+	<li><a href="https://keybase.io/hjelfman">Keybase</a></li>
 </ul>
 
 ## Projects
@@ -38,11 +38,11 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 
 ## Latest Commits
 <div id="jQuery">
-	<script type="text/javascript">	
+	<script type="text/javascript">
 		$.get('https://github.com/ethanhelfman.atom', function (data) {
 	 		$(data).find("entry").each(function () { // or "item" or whatever suits your feed
 				var el = $(this);
-				
+
 				console.log("------------------------");
 				console.log("title      : " + el.find("title").text());
 				console.log("author     : " + el.find("author").text());

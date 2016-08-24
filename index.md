@@ -40,6 +40,12 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 		<td>All platforms</td>
 		<td>Java/Python/Hopefully C</td>
 	</tr>
+	<tr>
+		<td><a href="https://github.com/ethanhelfman/dailyprogrammer_challenges">Daily Programming Challenge</a></td>
+		<td>A repository of my answers to programming challenges from reddit.com/r/dailyprogrammer</td>
+		<td>All platforms</td>
+		<td>Java/Python/Hopefully C</td>
+	</tr>
 </table>
 
 ## Latest Commits

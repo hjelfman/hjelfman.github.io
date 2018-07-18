@@ -9,8 +9,11 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 
 ## Resume
 4311 Somerville Ave
+
 Dallas, TX 75206
+
 (469) 834-2539
+
 <a href="mailto:ethancolehelfman@gmail.com">ethancolehelfman@gmail.com</a>
 
 ## SKILLS

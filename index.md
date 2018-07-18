@@ -7,14 +7,14 @@ Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use in
 	<li><a href="http://github.com/ethanhelfman/">Github</a></li>
 </ul>
 
-# Resume
+## Resume
 4311 Somerville Ave
 
 Dallas, TX 75206
 
 (469) 834-2539
 
-ethancolehelfman@gmail.com
+<a href="mailto:ethancolehelfman@gmail.com">ethancolehelfman@gmail.com</a>
 
 ## SKILLS
 

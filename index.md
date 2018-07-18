@@ -2,10 +2,7 @@
 layout: default
 ---
 
-Hi! I'm Ethan Helfman, a hobbyist coder! I made this website as a general-use introductory page.
-<ul>
-	<li><a href="http://github.com/ethanhelfman/">Github</a></li>
-</ul>
+Hi! I'm Ethan Helfman! This is my general-use website. My main interests are chemistry, political science, and math. Below is my resume, and the button near the bottom has some of my writing examples.
 
 ## Resume
 4311 Somerville Ave

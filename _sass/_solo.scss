@@ -34,7 +34,10 @@
 } 
 
 * {
-  font: 16px/1.5 opendyslexic, sans-serif !important;
+	font-size:20px;
+	line-height:200%;
+	color: #191A42;
+	font-family:opendyslexic !important;
 }
 
 @media (min-width: 30rem) {

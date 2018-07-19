@@ -2,6 +2,34 @@
 layout: default
 ---
 
+<div class = "float-icon">
+  <div class = "icon-wrap">
+    <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
+    <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+  </div>
+</div>
+
+<div class = "menu-wrap">
+  <div class = "menu">
+    <div>
+      <a href = "mailto:tori.hedden@gmail.com">
+        <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div>
+      <a href = "https://www.linkedin.com/in/victoriahedden">
+        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div>
+      <a href = "https://www.twitter.com/OneTrueTori">
+        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <div class = "caret"></div>
+</div>
+
 Hi! I'm Ethan Helfman! This is my general-use website. My main interests are chemistry, political science, and math. Below is my resume, and the button near the bottom has some of my writing examples.
 
 ## Resume

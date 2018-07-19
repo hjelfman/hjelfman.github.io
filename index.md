@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+
+<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+
 <div class = "float-icon">
   <div class = "icon-wrap">
     <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>

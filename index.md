@@ -2,37 +2,37 @@
 layout: default
 ---
 
-<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
-
-<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-
-<div class = "float-icon">
-  <div class = "icon-wrap">
-    <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
-    <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>About</li></a>
+      <a href="#"><li>Info</li></a>
+      <a href="#"><li>Contact</li></a>
+      <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+    </ul>
   </div>
-</div>
-
-<div class = "menu-wrap">
-  <div class = "menu">
-    <div>
-      <a href = "mailto:tori.hedden@gmail.com">
-        <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
-      </a>
-    </div>
-    <div>
-      <a href = "https://www.linkedin.com/in/victoriahedden">
-        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-      </a>
-    </div>
-    <div>
-      <a href = "https://www.twitter.com/OneTrueTori">
-        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-      </a>
-    </div>
-  </div>
-  <div class = "caret"></div>
-</div>
+</nav>
 
 Hi! I'm Ethan Helfman! This is my general-use website. My main interests are chemistry, political science, and math. Below is my resume, and the button near the bottom has some of my writing examples.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<script src="a.js"></script>
 
 <div class = "float-icon">
   <div class = "icon-wrap">

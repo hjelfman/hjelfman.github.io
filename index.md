@@ -99,9 +99,9 @@ One of the top 10 high schools in the country, took the accelerated math and sci
 
 ### APs - 
 
-	5 (Human Geo, Calculus AB, Biology, Computer Science A, Computer Science Principles, World History, Calculus BC, Environmental Science, Chemistry, Physics C: Mechanics, US History, English Language, Statistics)
+	* 5 (Human Geo, Calculus AB, Biology, Computer Science A, Computer Science Principles, World History, Calculus BC, Environmental Science, Chemistry, Physics C: Mechanics, US History, English Language, Statistics)
 
-  	4 (Physics 1)
+  	* 4 (Physics 1)
 
 ## CLUBS & MISC AWARDS
 

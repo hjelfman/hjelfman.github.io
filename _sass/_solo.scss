@@ -158,7 +158,7 @@ pre > code {
   position: absolute;
   top: 10px;
   left: 10px;
-  
+  height: 100%;
   z-index: 1;
   
   -webkit-user-select: none;
@@ -260,7 +260,7 @@ nav {
   padding: 50px;
   padding-top: 125px;
   
-  background: #52c7b8;
+  background: rgba(82, 199, 184, 0.5);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */

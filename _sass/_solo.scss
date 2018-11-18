@@ -247,6 +247,10 @@ pre > code {
  * Make this absolute positioned
  * at the top left of the screen
  */
+ 
+nav {
+	height: 100%;
+}
 #menu
 {
   position: absolute;

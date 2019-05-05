@@ -12,7 +12,7 @@
 
 body {
   margin: 2rem 0 5rem;
-  background-color: #b3e5fc;
+  background-color: #eeeeee;
 }
 
 @media (min-width: 30rem) {
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
-  color: #bf5f82;
+  color: #000000;
   text-rendering: optimizeLegibility;
 }
 
@@ -75,7 +75,7 @@ h3, h4, h5, h6 {
 }
 
 p, ul, ol, dl, table, pre, blockquote {
-  color: #bf5f82;
+  color: #000000;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -193,7 +193,7 @@ pre > code {
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #eeeeee;
   border-radius: 3px;
   
   z-index: 1;
@@ -223,7 +223,7 @@ pre > code {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #eeeeee;
 }
 
 /*
@@ -260,7 +260,7 @@ nav {
   padding: 50px;
   padding-top: 125px;
   
-  background: rgba(82, 199, 184, 0.5);
+  background: #eeeeee;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -277,7 +277,7 @@ nav {
 {
   padding: 10px 0;
   font-size: 22px;
-  color: #f48fb1;
+  color: #000000;
 }
 
 /*

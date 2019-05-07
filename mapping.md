@@ -11,3 +11,4 @@ layout: default
 <img src="tx33.png">
 <img src="tx24.png">
 <img src="tx30.png">
+<img src="mn07.png">

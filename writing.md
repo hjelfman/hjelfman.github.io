@@ -11,3 +11,5 @@ A strategic and business plan for my 9-year robotics team.
 * <a href="http://www.ironreignrobotics.com/2018-06-30-201819strat/">2018-2019 Iron Reign Risk Assessment</a>
 
 An assessment of the issues Iron Reign will encounter this year.
+
+* <a href="https://ironreignrobotics.org/author/ethan/">Iron Reign Writings</a>

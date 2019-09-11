@@ -2,7 +2,7 @@
 layout: 308
 ---
 
-<img src="header.jpg">
+<img width="1000px" src="header.jpg">
 
 # Dee and Charles Wyly Theater
 ## 2400 Flora Street, Dallas, TX, 75201 | Arts District
@@ -21,17 +21,17 @@ The main users of the structure are the theatergoers, actors and other members o
 
 ## Image Gallery
 
-<img src="floorplan.jpg">
-<img src="section.jpg">
+<img width="1000px" src="floorplan.jpg">
+<img width="1000px" src="section.jpg">
 
 ***
 ## Commentary
 
 Feeling/Impressions
-<img src="image1.jpg">
+<img width="1000px" src="image1.jpg">
 The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.
 
-<img src="image2.jpg">
+<img width="1000px" src="image2.jpg">
 <!--comment 2-->
 
 ### Materials: Glass, Steel Tubing, Reinforced Concrete
@@ -40,7 +40,7 @@ The vertical lines of tubing crossing the building give a feeling of height and 
 
 ## Featured Books
 
-<img src="sitespecific.jpg">
+<img width="1000px" src="sitespecific.jpg">
 
 In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent buildings: The Seattle Public Library, Wyly Theater, Caltech buildings, and Kortjik LLLibrary. They discuss the importance of location to architecture, the role of architecture in helping society, and considerations of construction. In terms of the Wyly Theater, he discusses his design principles for it, his favorite form of the the theater, and other highlights.
 
@@ -57,7 +57,7 @@ In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent
 ## Interior
 
 Modularity/Adaptability
-<img src="interior.jpg">
+<img width="1000px" src="interior.jpg">
 
 What differentiates the Wyly Theater from most other structures is its ability to change to the needs of the user. Everything inside can be removed, the seats can be rearranged, the upper structure can be hollowed out, the stage's shape can change, all to the needs of the audience and stagehands.
 
@@ -65,7 +65,7 @@ What differentiates the Wyly Theater from most other structures is its ability t
 
 ## Surroundings
 
-<img src="earth.png">
+<img width="1000px" src="earth.png">
 
 The building is in the urban, central business district of Downtown Dallas. It is dwarfed compared to the rest of Downtown's buildings, but in it's immediate area, it's one of the taller buildings, owing to the parking lots, schools, and smaller performance halls surrounding it. This makes the structure distinct in the area, and almost pulls people towards it to observe it.
 

@@ -27,11 +27,9 @@ The main users of the structure are the theatergoers, actors and other members o
 ***
 ## Commentary
 
-Feeling/Impressions
-
 <img width="65%" src="image1.jpg" align="left">
 
-<p align="right">The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.</p>
+<p align="right"><h4>Feeling/Impressions</h4></br>The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.</p>
 
 <img width="65%" src="image2.jpg">
 <!--comment 2-->
@@ -42,11 +40,11 @@ Feeling/Impressions
 
 ## Featured Books
 
-<img width="65%" src="sitespecific.jpg">
+<img width="65%" src="sitespecific.jpg" align="left">
 
-In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent buildings: The Seattle Public Library, Wyly Theater, Caltech buildings, and Kortjik LLLibrary. They discuss the importance of location to architecture, the role of architecture in helping society, and considerations of construction. In terms of the Wyly Theater, he discusses his design principles for it, his favorite form of the the theater, and other highlights.
+<p align="right">In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent buildings: The Seattle Public Library, Wyly Theater, Caltech buildings, and Kortjik LLLibrary. They discuss the importance of location to architecture, the role of architecture in helping society, and considerations of construction. In terms of the Wyly Theater, he discusses his design principles for it, his favorite form of the the theater, and other highlights.</p>
 
-> Forbes, Karen, and Peter Zumthor. Site Specific: Conversations with Peter Zumthor, Steven Holl, Róisín Heneghan, Bjarne Mastenbroek, Bjarke Ingels, Joshua Prince-Ramus, Patrik Schumacher, Kjetil Thorsen, Craig Dykers, and Harry Gugger. , 2015. Print.
+<blockquote align="right">Forbes, Karen, and Peter Zumthor. Site Specific: Conversations with Peter Zumthor, Steven Holl, Róisín Heneghan, Bjarne Mastenbroek, Bjarke Ingels, Joshua Prince-Ramus, Patrik Schumacher, Kjetil Thorsen, Craig Dykers, and Harry Gugger. , 2015. Print.</blockquote>
 
 <!--book 2-->
 
@@ -58,7 +56,8 @@ In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent
 
 ## Interior
 
-Modularity/Adaptability
+#### Modularity/Adaptability
+
 <img width="65%" src="interior.jpg">
 
 What differentiates the Wyly Theater from most other structures is its ability to change to the needs of the user. Everything inside can be removed, the seats can be rearranged, the upper structure can be hollowed out, the stage's shape can change, all to the needs of the audience and stagehands.

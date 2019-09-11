@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: 308
 ---
 
 <img src="header.jpg">

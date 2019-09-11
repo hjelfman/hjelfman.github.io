@@ -45,7 +45,7 @@ The vertical lines of tubing crossing the building give a feeling of height and 
 
 <div height="33%">
 
-<img height="100%" src="sitespecific.jpg" align="left">
+<img height="20%" src="sitespecific.jpg" align="left">
 
 <p align="right">In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent buildings: The Seattle Public Library, Wyly Theater, Caltech buildings, and Kortjik LLLibrary. They discuss the importance of location to architecture, the role of architecture in helping society, and considerations of construction. In terms of the Wyly Theater, he discusses his design principles for it, his favorite form of the the theater, and other highlights.</p>
 

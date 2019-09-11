@@ -26,31 +26,26 @@ The main users of the structure are the theatergoers, actors and other members o
 
 ***
 ## Commentary
-<div>
+
 <img width="65%" src="image1.jpg" align="left">
 
 <p align="right"><h4>Feeling/Impressions</h4>
 The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.</p>
-</div>
-<div>
-<img width="65%" src="image2.jpg" align="right">
-<p align="left"><h4>Some Bullshit</h4></p>
+
+<img width="65%" src="image2.jpg">
 <!--comment 2-->
-</div>
+
 ##### Materials: Glass, Steel Tubing, Reinforced Concrete
 
 ***
 
 ## Featured Books
 
-<div height="33%">
-
-<img height="20%" src="sitespecific.jpg" align="left">
+<img width="65%" src="sitespecific.jpg" align="left">
 
 <p align="right">In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent buildings: The Seattle Public Library, Wyly Theater, Caltech buildings, and Kortjik LLLibrary. They discuss the importance of location to architecture, the role of architecture in helping society, and considerations of construction. In terms of the Wyly Theater, he discusses his design principles for it, his favorite form of the the theater, and other highlights.</p>
 
 <blockquote align="right">Forbes, Karen, and Peter Zumthor. Site Specific: Conversations with Peter Zumthor, Steven Holl, Róisín Heneghan, Bjarne Mastenbroek, Bjarke Ingels, Joshua Prince-Ramus, Patrik Schumacher, Kjetil Thorsen, Craig Dykers, and Harry Gugger. , 2015. Print.</blockquote>
-</div>
 
 <!--book 2-->
 

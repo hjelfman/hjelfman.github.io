@@ -26,15 +26,17 @@ The main users of the structure are the theatergoers, actors and other members o
 
 ***
 ## Commentary
-
+<div>
 <img width="65%" src="image1.jpg" align="left">
 
 <p align="right"><h4>Feeling/Impressions</h4>
 The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.</p>
-
-<img width="65%" src="image2.jpg">
+</div>
+<div>
+<img width="65%" src="image2.jpg" align="right">
+<p align="left"><h4>Some Bullshit</h4></p>
 <!--comment 2-->
-
+</div>
 ##### Materials: Glass, Steel Tubing, Reinforced Concrete
 
 ***

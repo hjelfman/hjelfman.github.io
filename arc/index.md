@@ -2,7 +2,7 @@
 layout: 308
 ---
 
-<img width="65%" src="header.jpg">
+<img width="100%" src="header.jpg">
 
 # Dee and Charles Wyly Theater
 ## 2400 Flora Street, Dallas, TX, 75201 | Arts District
@@ -21,16 +21,17 @@ The main users of the structure are the theatergoers, actors and other members o
 
 ## Image Gallery
 
-<img width="65%" src="floorplan.jpg">
-<img width="65%" src="section.jpg">
+<img width="49%" src="floorplan.jpg">
+<img width="49%" src="section.jpg">
 
 ***
 ## Commentary
 
 Feeling/Impressions
-<img width="65%" src="image1.jpg">
 
-The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.
+<img width="65%" src="image1.jpg" align="left">
+
+<p align="right">The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.</p>
 
 <img width="65%" src="image2.jpg">
 <!--comment 2-->

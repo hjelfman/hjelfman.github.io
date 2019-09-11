@@ -103,3 +103,10 @@ This video demonstrates the modularity and shifting form of the building. In but
 
 ***
 ## Sources
+
+* https://www.attpac.org/your-visit/venues/wyly-theatre/
+* https://www.curbed.com/2019/8/22/20755386/rem-koolhaas-smlxl-review-oma
+* https://searchworks.stanford.edu/view/11348020
+* https://www.nytimes.com/2009/10/15/arts/design/15dallas.html
+* https://www.archdaily.com/37736/dee-and-charles-wyly-theatre-rex-oma?ad_medium=gallery
+* http://www.architectureweek.com/2010/1027/design_3-2.html

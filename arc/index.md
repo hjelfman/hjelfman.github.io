@@ -50,9 +50,7 @@ From the opposite angle, this welcoming impression is gone. Without the ramp ent
 
 <blockquote align="right">Forbes, Karen, and Peter Zumthor. Site Specific: Conversations with Peter Zumthor, Steven Holl, Róisín Heneghan, Bjarne Mastenbroek, Bjarke Ingels, Joshua Prince-Ramus, Patrik Schumacher, Kjetil Thorsen, Craig Dykers, and Harry Gugger. , 2015. Print.</blockquote>
 
-
-
-
+***
 
 <img width="20%" src="essays.jpg" align="left">
 <p align="right">

@@ -26,19 +26,20 @@ The main users of the structure are the theatergoers, actors and other members o
 
 ***
 ## Commentary
-
+<div width="49%" align="right">
 <img width="65%" src="image1.jpg" align="left">
 
 <p align="right"><h4>Feeling/Impressions</h4>
 The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.</p>
-
-***
+</div>
+<div width="49%" align="left">
 
 <img width="65%" src="image2.jpg" align="left">
 <p align="right">
 <h4>Angles/Perspectives</h4>
 From the opposite angle, this welcoming impression is gone. Without the ramp entrance and natural fauna, the lines of the building are much more distinct; the angles sharper; the building harder. The verical tubing seems to form lines resembling a large stage curtain. The upper floors' lighting becomes much more ominous, mysterious contrasted against the twilight sky. The lower floor's glass structure becomes a series of incomprehensible shapes, inspiring a sense of curiosity in the passerby.
 </p>
+</div>
 
 ##### Materials: Glass, Steel Tubing, Reinforced Concrete
 

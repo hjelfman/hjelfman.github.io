@@ -41,13 +41,23 @@ The vertical lines of tubing crossing the building give a feeling of height and 
 
 ## Featured Books
 
+<span>
 <img width="20%" src="sitespecific.jpg" align="left">
 
 <p align="right">In this piece, Karen Forbes interviews Joshua Prince-Ramus on his more prominent buildings: The Seattle Public Library, Wyly Theater, Caltech buildings, and Kortjik LLLibrary. They discuss the importance of location to architecture, the role of architecture in helping society, and considerations of construction. In terms of the Wyly Theater, he discusses his design principles for it, his favorite form of the the theater, and other highlights.</p>
 
 <blockquote align="right">Forbes, Karen, and Peter Zumthor. Site Specific: Conversations with Peter Zumthor, Steven Holl, Róisín Heneghan, Bjarne Mastenbroek, Bjarke Ingels, Joshua Prince-Ramus, Patrik Schumacher, Kjetil Thorsen, Craig Dykers, and Harry Gugger. , 2015. Print.</blockquote>
+</span>
 
-<!--book 2-->
+<span>
+<img width="20%" src="essays.jpg" align="left">
+<p align="right">
+In this piece, Ingrid Bock details Rem Koolhaas' design philosophy, citing the Wyly Theater as one of his buildings. This philosophy can be most described as the need to affect freedom through architecture. This can be seen clearly in the Wyly Theater; the creative freedom it allows its users is unparalleled in the performing arts through its ability to change its structure.
+</p>
+<blockquote align="right">
+Böck, Ingrid. Six Canonical Projects by Rem Koolhaas: Essays on the History of Ideas. Jovis, 2015.
+</blockquote>
+</span>
 
 ***
 
@@ -73,7 +83,7 @@ The building is in the urban, central business district of Downtown Dallas. It i
 
 ***
 
-## Interview with Evan
+## Interview with an Actor
 
 ***
 

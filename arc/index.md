@@ -1,7 +1,6 @@
 ---
 layout: 308
 ---
-<script
 
 <img width="100%" src="header.jpg">
 

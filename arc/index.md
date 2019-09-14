@@ -65,6 +65,10 @@ Böck, Ingrid. Six Canonical Projects by Rem Koolhaas: Essays on the History of 
 
 ## Drawing
 
+<img width="25%" src="draw.jpg">
+
+I tried to emphasize the differences between the parts of the building. The transparent bottom contrasts heavily with the steel-tubing top, as if someone had draped a grey curtain over the top of a box. As well, the lighting of the spaces within the build creates a feeling of being watched, an almost dystopian feeling, as you can see the light emanating out, but not what is actually happening in the upper levels of the building, meanwhile, the inhabitants can see everything in the area (and, this fits well - RoboCop was filmed less than a mile away at Dallas City Hall).
+
 ***
 
 ## Interior

@@ -7,13 +7,13 @@ layout: 308
 # Dee and Charles Wyly Theater
 ## 2400 Flora Street, Dallas, TX, 75201 | Arts District
 ## Designed by Joshua Prince-Ramus and Rem Koolhaas (OMA | REX)
-### Construction 2006-2009
+### Construction 2006-2009<sup>[1]</sup>
 
 ***
 
 ## Purpose, Function, Users
 
-This building was created as a new theater and arts center for Dallas, TX, meant to be a new kind of theater; more modular, more adaptable, and more functional. It was meant to be a "populist" building, where the audience could feel as participants. The building is fully adaptable; seats can be added and removed, the stage can be changed, even the height of the ceiling can vary. The only constant is the upstairs conference room.
+This building was created as a new theater and arts center for Dallas, TX, meant to be a new kind of theater; more modular, more adaptable, and more functional. It was meant to be a "populist" building, where the audience could feel as participants. The building is fully adaptable; seats can be added and removed, the stage can be changed, even the height of the ceiling can vary. The only constant is the upstairs conference room.<sup>[1]</sup><sup>[7]</sup>
 
 The main users of the structure are the theatergoers, actors and other members of the plays, and the AT&T Performing Arts Center's employees. Secondary users include janitorial, maintenance, and set design staff. 
 
@@ -22,18 +22,18 @@ The main users of the structure are the theatergoers, actors and other members o
 ## Image Gallery
 
 <img width="49%" src="floorplan.jpg">
-<img width="49%" src="section.jpg">
+<img width="49%" src="section.jpg"><sup>[6]</sup>
 
 ***
 ## Commentary
-<img width="65%" src="image1.jpg">
+<img width="65%" src="image1.jpg"><sup>[5]</sup>
 
 <p><h4>Feeling/Impressions</h4>
 The vertical lines of tubing crossing the building give a feeling of height and solidity, while the pressed-concrete stairs leading to the doors are cold and undecorated, but welcoming. In the context of the Dallas Arts District, the building is distinct. The nearby buildings are either steel-and-glass structures, the usual tower, or lower-to-the ground museums. This building seems to invert the idea of the steel-and-glass tower; with steel as the main outer shell. With all of these qualities, the building could be nothing else but a theater.</p>
 
 ***
 
-<img width="65%" src="image2.jpg">
+<img width="65%" src="image2.jpg"><sup>[5]</sup>
 <p>
 <h4>Angles/Perspectives</h4>
 From the opposite angle, this welcoming impression is gone. Without the ramp entrance and natural fauna, the lines of the building are much more distinct; the angles sharper; the building harder. The verical tubing seems to form lines resembling a large stage curtain. The upper floors' lighting becomes much more ominous, mysterious contrasted against the twilight sky. The lower floor's glass structure becomes a series of incomprehensible shapes, inspiring a sense of curiosity in the passerby.
@@ -122,9 +122,11 @@ This video demonstrates the modularity and shifting form of the building. In but
 ***
 ## Sources
 
-* https://www.attpac.org/your-visit/venues/wyly-theatre/
-* https://www.curbed.com/2019/8/22/20755386/rem-koolhaas-smlxl-review-oma
-* https://searchworks.stanford.edu/view/11348020
-* https://www.nytimes.com/2009/10/15/arts/design/15dallas.html
-* https://www.archdaily.com/37736/dee-and-charles-wyly-theatre-rex-oma?ad_medium=gallery
-* http://www.architectureweek.com/2010/1027/design_3-2.html
+* [1] https://www.attpac.org/your-visit/venues/wyly-theatre/
+* [2] https://www.curbed.com/2019/8/22/20755386/rem-koolhaas-smlxl-review-oma
+* [3] https://searchworks.stanford.edu/view/11348020
+* [4] https://www.nytimes.com/2009/10/15/arts/design/15dallas.html
+* [5] https://www.archdaily.com/37736/dee-and-charles-wyly-theatre-rex-oma?ad_medium=gallery
+* [6] http://www.architectureweek.com/2010/1027/design_3-2.html
+* [7] Site Specific by Karen Forbes
+* [8] Six Canonical Projects by Rem Koolhaas: Essays on the History of Ideas by Ingrid Bock

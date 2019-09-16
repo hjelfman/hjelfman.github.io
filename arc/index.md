@@ -15,7 +15,7 @@ layout: 308
 
 This building was created as a new theater and arts center for Dallas, TX, meant to be a new kind of theater; more modular, more adaptable, and more functional. It was meant to be a "populist" building, where the audience could feel as participants. The building is fully adaptable; seats can be added and removed, the stage can be changed, even the height of the ceiling can vary. The only constant is the upstairs conference room.<sup>[1]</sup><sup>[7]</sup>
 
-The main users of the structure are the theatergoers, actors and other members of the plays, and the AT&T Performing Arts Center's employees. Secondary users include janitorial, maintenance, and set design staff. 
+The main users of the structure are the theatergoers, actors and other members of the plays, and the AT&T Performing Arts Center's employees. Secondary users include janitorial, maintenance, and set design staff.
 
 ***
 
@@ -89,7 +89,14 @@ The building is in the urban, central business district of Downtown Dallas. It i
 
 ***
 
-## Interview with an Actor
+## Interview with a Visitor
+
+<img src="https://media.licdn.com/dms/image/C5603AQEQFHb0eam-5w/profile-displayphoto-shrink_200_200/0?e=1574294400&v=beta&t=geixSvA0qp_6ZolWfJm5RnO_Pe_ZRm6Sd9Gylza9b5g">
+#### Kenna Funk Tanaka
+
+Q: What struck you about the building, how did it affect your experience there, how do you think it's design affects you?
+
+A: Looking at the Wyly Theatre, the shape catches your attention, but the texture keeps it. When I was little, the vertical stripes reminded me of going lightspeed in Star Wars. They extend the building past its real height into space. The outside is so interesting, it's inviting, like it wants to pull you in.
 
 ***
 
@@ -109,7 +116,7 @@ Koolhaas is something of a rockstar of the architectural world despite all his a
 ## Wyly in the News
 ### From <a href="https://www.nytimes.com/2009/10/15/arts/design/15dallas.html">nytimes.com</a>
 
-This article let me in on interpersonal politics that the majority of Dallas residents aren't aware of. First and foremost, Ramus was Koolhaas' employee up until the middle of this project, when Ramus suddenly quit and started his own studio, REX. Secondly, the original design of the building was going to be much more grand, with four central sliding doors that could open the stage and audience up to the street; this was later replaced with two pivoting doors. Finally, the building was meant to reinvigorate the Arts District (from personal experience, with little success). 
+This article let me in on interpersonal politics that the majority of Dallas residents aren't aware of. First and foremost, Ramus was Koolhaas' employee up until the middle of this project, when Ramus suddenly quit and started his own studio, REX. Secondly, the original design of the building was going to be much more grand, with four central sliding doors that could open the stage and audience up to the street; this was later replaced with two pivoting doors. Finally, the building was meant to reinvigorate the Arts District (from personal experience, with little success).
 
 ***
 

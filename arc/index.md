@@ -89,7 +89,14 @@ The building is in the urban, central business district of Downtown Dallas. It i
 
 ***
 
-## Interview with an Actor
+## Interview with a Visitor
+
+<img src="https://media.licdn.com/dms/image/C5603AQEQFHb0eam-5w/profile-displayphoto-shrink_200_200/0?e=1574294400&v=beta&t=geixSvA0qp_6ZolWfJm5RnO_Pe_ZRm6Sd9Gylza9b5g">
+#### Kenna Funk Tanaka
+
+Q: What struck you about the building, how did it affect your experience there, how do you think it's design affects you?
+
+A: Looking at the Wyly Theatre, the shape catches your attention, but the texture keeps it. When I was little, the vertical stripes reminded me of going lightspeed in Star Wars. They extend the building past its real height into space. The outside is so interesting, it's inviting, like it wants to pull you in.
 
 ***
 

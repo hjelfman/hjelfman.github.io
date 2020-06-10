@@ -1,7 +1,7 @@
 # Site settings
-title: Ethan Helfman
-tag_text: Ethan Helfman
-description: Ethan Helfman
+title: Hjelfman
+tag_text: Hjelfman
+description: Hjelfman
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]

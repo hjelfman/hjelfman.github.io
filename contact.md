@@ -4,4 +4,4 @@ layout: default
 
 ## Contact
 
-* <a href="http://instagram.com/hjelfman">Instagram</a>
+* ethan@hjelfman.com

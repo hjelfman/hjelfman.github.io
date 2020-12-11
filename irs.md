@@ -4,7 +4,7 @@ layout: default
 
 ## IRS Audit Data
 
-######## By Ethan Helfman
+By Ethan Helfman
 
 <img src="irs_audits.png" width="75%">
 

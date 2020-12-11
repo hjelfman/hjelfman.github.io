@@ -24,6 +24,6 @@ The Navajo and Hopi reservations stand out in the Southwest. Respectively, they 
 
 <img src="rgv.png" width="75%">
 
-Finally, moving down to Texas, the RGV is clearly visible. A historically Hispanic area, the Rio Grande Valley has some of the highest poverty rates in the country, hovering around <a href="https://www.themonitor.com/2020/01/14/letters-poverty-rgv/">55%"</a>. Many towns in the area do not have <a href="https://quod.lib.umich.edu/m/mjs/12333712.0002.010?view=text;rgn=main">adequate sewage, sanitation, or basic services</a>. From all of the above data, one is led to wonder why the most impoverished areas in the nation are harmed the most by the IRS.
+Finally, moving down to Texas, the RGV is clearly visible. A historically Hispanic area, the Rio Grande Valley has some of the highest poverty rates in the country, hovering around <a href="https://www.themonitor.com/2020/01/14/letters-poverty-rgv/">55%</a>. Many towns in the area do not have <a href="https://quod.lib.umich.edu/m/mjs/12333712.0002.010?view=text;rgn=main">adequate sewage, sanitation, or basic services</a>. From all of the above data, one is led to wonder why the most impoverished areas in the nation are harmed the most by the IRS.
 
 Sources: ProPublica, Census

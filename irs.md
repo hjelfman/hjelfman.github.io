@@ -4,6 +4,8 @@ layout: default
 
 ## IRS Audit Data
 
+##### Ethan Helfman
+
 <img src="irs_audits.png" width="75%"></img>
 
 ProPublica recently <a href="https://www.propublica.org/datastore/dataset/irs-audit-rates-by-county">released</a> IRS audit data by county. While looking through it, I noticed something alarming - nearly the entire Rio Grande Valley (RGV) stood out on the map. Then, looking over to Wisconsin, I noticed that only one county was highlighted - Menominee - which is a reservation. An unnerving pattern began to emerge, and I wanted to explore the data more.

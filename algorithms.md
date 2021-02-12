@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Algorithmic Racism
 
 The Rio Grande Valley straddles the Texas border between Mexico and the US. Aside from its larger city of Brownsville, much of the landscape is dotted by _Colonias_ - small migrant communities defined by their lack of sanitary services. 42% of the residents of these towns [live below the poverty line](https://www.dallasfed.org/~/media/documents/cd/pubs/lascolonias.pdf); another 19% lie precariously close.

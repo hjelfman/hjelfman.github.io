@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
+
 # Algorithmic Racism
 
 The Rio Grande Valley straddles the Texas border between Mexico and the US. Aside from its larger city of Brownsville, much of the landscape is dotted by _Colonias_ - small migrant communities defined by their lack of sanitary services. 42% of the residents of these towns [live below the poverty line](https://www.dallasfed.org/~/media/documents/cd/pubs/lascolonias.pdf); another 19% lie precariously close.
@@ -9,7 +28,7 @@ So why is the Rio Grande Valley the most audited area in Texas?
 
 In 2019, _[ProPublica](https://www.propublica.org/datastore/dataset/irs-audit-rates-by-county)_ released a dataset of IRS audit rates throughout the United States, revealing staggering disparities in who gets audited by the IRS. The most impoverished areas stand out: the Rio Grande Valley, Mississippi Delta, Black Belt, and various Western reservations, among others. The data is clear. The people who have the least are audited the most. 
 
-![[IRS audits 2.png]]
+<img src="https://ethanhelfman.github.io/IRS audits 2.png"></img>
 
 The IRS is going over poor people's taxes with a fine-toothed comb, while ignoring wealthier people's taxes. And, these people who get audited just tend to be minorities.
 

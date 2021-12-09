@@ -9,3 +9,4 @@ sass:
   style: compressed
 plugins:
   - jekyll-sitemap
+remote-theme: clean-jekyll-theme

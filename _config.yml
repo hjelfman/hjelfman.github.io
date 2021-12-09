@@ -1,12 +1,26 @@
-# Site settings
-title: Hjelfman
-tag_text: Hjelfman
-description: Hjelfman
+title: John Doe
+name: John Doe
+description: Site description goes here.
+permalink: /posts/:year/:month/:day/:title/
+
+baseurl: "/clean-jekyll-theme"
+url: ""
+lang: "en"
+
+github_username:  johndoe
+
+social:
+    name: John Doe
+    links:
+        - https://twitter.com/johndoe
+        - https://github.com/johndoe
+
 # Build settings
 markdown: kramdown
-exclude: ["README.md"]
-sass:
-  style: compressed
+theme: clean-jekyll-theme
 plugins:
-  - jekyll-sitemap
-remote-theme: clean-jekyll-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock

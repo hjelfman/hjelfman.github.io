@@ -1,13 +1,13 @@
 title: John Doe
 name: John Doe
-description: Site description goes here.
+description: Small site for projects.
 permalink: /posts/:year/:month/:day/:title/
 
 baseurl: "/"
 url: ""
 lang: "en"
 
-github_username:  ethanhelfman
+github_username: ethanhelfman
 
 social:
     name: Ethan Helfman
@@ -16,7 +16,7 @@ social:
 
 # Build settings
 markdown: kramdown
-custom-theme: clean-jekyll-theme
+heme: clean-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

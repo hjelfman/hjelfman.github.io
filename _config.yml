@@ -3,7 +3,7 @@ name: John Doe
 description: Site description goes here.
 permalink: /posts/:year/:month/:day/:title/
 
-baseurl: "hjelfman.com"
+baseurl: "/"
 url: ""
 lang: "en"
 

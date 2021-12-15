@@ -3,21 +3,20 @@ name: John Doe
 description: Site description goes here.
 permalink: /posts/:year/:month/:day/:title/
 
-baseurl: "/clean-jekyll-theme"
+baseurl: "hjelfman.com"
 url: ""
 lang: "en"
 
-github_username:  johndoe
+github_username:  ethanhelfman
 
 social:
-    name: John Doe
+    name: Ethan Helfman
     links:
-        - https://twitter.com/johndoe
-        - https://github.com/johndoe
+        - https://github.com/ethanhelfman
 
 # Build settings
 markdown: kramdown
-theme: clean-jekyll-theme
+custom-theme: clean-jekyll-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

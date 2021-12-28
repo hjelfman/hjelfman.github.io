@@ -7,12 +7,12 @@ baseurl: "/"
 url: ""
 lang: "en"
 
-github_username: ethanhelfman
+github_username: hjelfman
 
 social:
     name: Ethan Helfman
     links:
-        - https://github.com/ethanhelfman
+        - https://github.com/hjelfman
 
 # Build settings
 markdown: kramdown

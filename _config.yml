@@ -1,6 +1,6 @@
-title: John Doe
-name: John Doe
-description: Small site for projects.
+title: Zelinide
+name: hjelfman
+description: Posts and projects
 permalink: /posts/:year/:month/:day/:title/
 
 baseurl: "/"

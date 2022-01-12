@@ -7,7 +7,6 @@ baseurl: "/"
 url: ""
 lang: "en"
 
-theme: clean-jekyll-theme
 github_username: hjelfman
 
 social:

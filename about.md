@@ -10,7 +10,7 @@ Hello! I'm <button id="name" onclick="change()">name</button>, an amateur coder 
 
 <script>
   function change() {
-    var b = document.getObjectById("name");
+    var b = document.getElementById("name");
     var names = ["ethan", "hazel", "hazelwood", "hjelfman", "wouldn't you like to know?"];
     const newname = names[Math.floor(Math.random() * names.length)];
     b.innerHTML = newname;

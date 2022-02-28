@@ -7,7 +7,7 @@ categories: misc
 
 # Manic March - Name Button
 
-As someone who wants to remain pseudo-anonymous on this website for the time being while still wishing to remain identifiable, I struggled to figure out what to put as my name on the about page. So, I took some code snippets and created a quick about page name generator to give some people references for me, some of which are true, some are technically correct, and some wrong.
+As someone who wants to remain pseudo-anonymous on this website for the time being while still wishing to remain identifiable, I struggled to figure out what to put as my name on the about page. So, I took some code snippets and created a quick about page name generator to give some people references for me, some of which are true, some are technically correct, and some wrong. If you want to see it in action, visit my about page in the upper right hand corner of the webpage!
 
 ## What is Manic March?
 

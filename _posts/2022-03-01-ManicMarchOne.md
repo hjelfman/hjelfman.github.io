@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manic March: Day One"
-date: 2022-03-02
+date: 2022-03-01
 categories: misc
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manic March: Day Two"
+title: "Manic March #2: That Which I May Own"
 date: 2022-03-02
 categories: misc
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manic March: Day Three"
+title: "Manic March #3: Weight Others Can Bear"
 date: 2022-03-03
 categories: misc
 ---

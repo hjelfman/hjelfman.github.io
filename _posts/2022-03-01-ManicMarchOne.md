@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manic March: Day One"
+title: "Manic March #1: Name Button"
 date: 2022-03-01
 categories: misc
 ---

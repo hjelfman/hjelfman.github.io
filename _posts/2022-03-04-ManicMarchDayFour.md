@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manic March: Day Four"
+title: "Manic March #4: Constrained Optimization"
 date: 2022-03-04
 categories: misc
 ---

@@ -10,6 +10,8 @@ One of the most effective treatments for depressive symptoms is [sleep deprivati
 
 However, I am qualified on my own mental state to the extent that any person is qualified to speak on their own mental state and have just completed a 36-hour sleep deprivation experiment, consisting of 33 hours of wakefulness and 3 hours of sleep. This was done from 6 A.M. on March 4th to 6 P.M. on March 5th, this post being a log of my experience.
 
+***
+
 #### March 4th, 2022
 6-9 AM – Just woke up, showered, and got ready for the day. Drank a cup of coffee around 8 and decided to skip my first class at 9 so that I could make chocolate chip pancakes.
 10 AM – Went to my first class, Ethics and Medicine.
@@ -35,6 +37,8 @@ Midnight-1 AM- Ate dinner, ran approximately 3 miles. Still not tired.
 1-6PM – Went to family member’s house, then bookstore, and finally bought dinner – starting to get tired again. 
 
 6PM-5AM – Slept, woke up refreshed.
+
+***
 
 Nowadays (the past year or so), I rarely experience depressive symptoms, which is why I thought it may be interesting to do this. And overall, my mental state was slightly improved (1-2 points on a 10-point scale) over baseline. There are the caveats of placebo and small sample size, but it seems to have some merit, at least to me.
 

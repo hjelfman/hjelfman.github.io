@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manic March #8: First Order Platitudes, Second Order Advice"
-date: 2022-03-07
+date: 2022-03-08
 categories: misc
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manic March #8: It's Over, You Lost"
+title: "Manic March #9: It's Over, You Lost"
 date: 2022-03-09
 categories: misc
 ---

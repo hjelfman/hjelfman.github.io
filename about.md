@@ -16,6 +16,9 @@ A: Why do you think I'd make it that easy?
 ##### Q: Why does this website exist given that it has - generously - two readers?
 A: Why not?
 
+##### Q: What you said here does not match what you said in another place.
+A: Not a question, but I reserve the right to lie, fudge the truth, omit facts, and otherwise be a nuisance. 
+
 <script>
   function change() {
     var b = document.getElementById("name");

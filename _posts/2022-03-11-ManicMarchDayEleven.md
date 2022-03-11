@@ -18,7 +18,7 @@ On Feburary 27, 2022, I thought it would be a great idea to create some sort of 
 	function destroy() {
 		var everything = document.getElementsByTagName("*");
 		var ids = [];
-		var fonts = ["Arial","Verdana","Helvetica","Tahoma","Trebuchet MS","Times New Roman","Georgia","Garamond","Courier New","Brush Script MT", "Comic Sans", "Comic Sans MS"];
+		var fonts =["Arial","Arial Black","Verdana","Tahoma","Trebuchet MS","Impact","Times New Roman","Didot","Georgia","American Typewriter","Andale Mono","Courier","Lucida Console","Monaco","Bradley Hand","Brush Script MT","Luminari","Comic Sans MS"];
 		for (var i=0, n=everything.length; i < n; ++i) {
 			var el = everything[i];
 			if (el.id) {
@@ -29,6 +29,7 @@ On Feburary 27, 2022, I thought it would be a great idea to create some sort of 
 		var choice = Math.floor(Math.random()*fonts.length);
 		for (var j=0, lim=ids.length; j < lim; j++) {
 			var randomColor = Math.floor(Math.random()*16777215).toString(16);
+			console.log(ids[j]);
 			document.getElementById(ids[j]).style.color = randomColor;
 		}
 	}

@@ -37,7 +37,9 @@ Empathy was not necessary for us to exist. Sure, it may “help social cohesion�
 In the same vein, being conscious is not necessarily evolutionary advantageous. The ability for metacognition – to think about your thinking – likely provides only marginal benefit over a perfect automaton that flees from a tiger when it is supposed to and eats food when its urge comes into existence. The fact that we can ruminate on our feelings allows us to find meaning. It is a frightening ability, sure, the fact that we can spiral in our rumination into deeper depths, but the alternative is far less preferable. 
 ### Life
 How wondrous it is to be anything at all? Nothing here need exist; there are infinitely many other alternatives where this is nothing. That we are incidentally here, even temporarily, is a wonder. People may retort that one only values existing because they exist, and fear the alternative, but this is a flawed argument. Given the infinite possibilities of universes, one would ask to be moved to [the next most pleasurable one]( https://slatestarcodex.com/2015/03/15/answer-to-job/) only until they realize that they currently would cease to exist. There is no meaning without someone to ascribe it.
+
 ***
+
 These are experiences in which we can find meaning, though definitely not an exhaustive list, for everything may. The engineer may ask, “So what? What can I do with this information? Just because I *can* find meaning does not give it a function.” Not all experiences have a use, but to entertain this argument within the nihilist framework, read the next paragraph:
 
 Convincing yourself that everything means nothing is much easier than finding meaning – given the easy and hard paths, if they mean nothing, why not pick the harder one to see what it feels like to walk upon?

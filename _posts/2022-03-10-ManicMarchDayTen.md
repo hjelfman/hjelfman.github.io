@@ -40,7 +40,7 @@ How wondrous it is to be anything at all? Nothing here need exist; there are inf
 
 ***
 
-These are experiences in which we can find meaning, though definitely not an exhaustive list, for everything may. The engineer may ask, “So what? What can I do with this information? Just because I *can* find meaning does not give it a function.” Not all experiences have a use, but to entertain this argument within the nihilist framework, read the next paragraph:
+These are experiences in which we can find meaning, though definitely not an exhaustive list, for everything may. The engineer may ask, “So what? What can I do with this information? Just because I can find meaning does not give it a function.” Not all experiences have a use, but to entertain this argument within the nihilist framework, read the next paragraph:
 
 Convincing yourself that everything means nothing is much easier than finding meaning – given the easy and hard paths, if they mean nothing, why not pick the harder one to see what it feels like to walk upon?
 

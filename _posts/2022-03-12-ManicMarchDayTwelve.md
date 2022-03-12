@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manic March #12: Revelation's Exponential Decay"
-date: 2022-03-07
+date: 2022-03-12
 categories: misc
 ---
 

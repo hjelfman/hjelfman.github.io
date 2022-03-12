@@ -26,7 +26,7 @@ On Feburary 27, 2022, I thought it would be a great idea to create some sort of 
 			var choice = Math.floor(Math.random()*fonts.length);
 			if (document.querySelector(elements[j]) !== null) {
 				document.querySelector(elements[j]).style.fontFamily = fonts[choice];
-				document.querySelector(elements[j]).style.background-color = randomColor;
+				document.querySelector(elements[j]).style.backgroundColor = randomColor;
 				var randomColor = Math.floor(Math.random()*16777215).toString(16);
 				randomColor = "#" + randomColor;
 				document.querySelector(elements[j]).style.color = randomColor;

@@ -23,8 +23,10 @@ On Feburary 27, 2022, I thought it would be a great idea to create some sort of 
 		for (var j=0, lim=elements.length; j < lim; j++) {
 			var randomColor = Math.floor(Math.random()*16777215).toString(16);
 			var choice = Math.floor(Math.random()*fonts.length);
-			document.querySelector('*').style.fontFamily = fonts[choice];
-			document.querySelector(elements[j]).style.color = randomColor;
+			if (document.querySelector(elements[j]) !== null) {
+				document.querySelector(elements[j]).style.fontFamily = fonts[choice];
+				document.querySelector(elements[j]).style.color = randomColor;
+			}
 		}
 	}
 </script>

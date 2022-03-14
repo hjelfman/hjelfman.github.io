@@ -6,10 +6,10 @@ date:   2022-03-13
 categories: misc
 ---
 
+## Books
+
 ### 2020
 
-|Book|
-|---|
 |The Last Days of Judas Iscariot|
 |The Geography of Nowhere|
 |The Rise and Fall of DODO|
@@ -17,8 +17,6 @@ categories: misc
 
 ### 2021
 
-|Book|
-|---|
 |Ishi in Two Worlds|
 |The Left Hand of Darkness|
 |The Book of Unconformities|
@@ -36,8 +34,6 @@ categories: misc
 
 ### 2022
 
-|Book|
-|---|
 |When We Cease to Understand the World|
 |17776|
 |Circe|

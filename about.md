@@ -19,6 +19,9 @@ A: Why not?
 ##### Q: What you said here does not match what you said in another place.
 A: Not a question, but I reserve the right to lie, fudge the truth, omit facts, and otherwise be a nuisance. 
 
+##### Q: Are there any books/media you want to talk about?
+A: [Here](https://hjelfman.com/media/).
+
 <script>
   function change() {
     var b = document.getElementById("name");

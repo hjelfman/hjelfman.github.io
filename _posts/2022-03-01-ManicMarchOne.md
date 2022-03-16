@@ -11,4 +11,4 @@ As someone who wants to remain pseudo-anonymous on this website for the time bei
 
 ## What is Manic March?
 
-On Feburary 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the first post in the series.
+On February 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the first post in the series.

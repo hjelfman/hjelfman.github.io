@@ -16,4 +16,4 @@ But, like I said before, people ignore their feelings. There is misattribution e
 So why not you? My thesis is that you too can carry this pain. However, it feels so much better to walk with light shoulders and a bounce in your step. Personally, this is a stronger answer than wishing one could feel your pain, for these people have no right to tell you what to carry.
 
 ### What is Manic March?
-On Feburary 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the third post in the series.
+On February 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the third post in the series.

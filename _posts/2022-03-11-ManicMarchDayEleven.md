@@ -12,7 +12,7 @@ I often get sick of my website's layout and have the urge to change it. Since th
 
 ### What is Manic March?
 
-On Feburary 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the eleventh post in the series.
+On February 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the eleventh post in the series.
 
 <script>
 

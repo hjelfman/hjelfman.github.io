@@ -46,4 +46,4 @@ This does not constitute medical advice! Not sleeping can trigger manic episodes
 
 ### What is Manic March?
 
-On Feburary 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the fifth post in the series.
+On February 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the fifth post in the series.

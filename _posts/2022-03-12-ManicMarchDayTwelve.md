@@ -14,4 +14,4 @@ Oftentimes, those who claim to have had some sort of lifechanging experience sti
 This phenomenon appears a lot like [spaced repetition learning](https://www.gwern.net/Spaced-repetition). Therein lies a possible mechanism to keep this state of Revelation for those who choose to do so. However, just because somebody can do something does not mean it is a good idea. Not all psychedelic observation tracks within the real world (though I do believe a lot does!) and trying to apply this without discernment may be harmful. 
 
 ### What is Manic March?
-On Feburary 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the twelfth post in the series.
+On February 27, 2022, I thought it would be a great idea to create some sort of content - writing, art, coding, etc. - every day of the next month. Luckily, the alliteration worked out. This should be the twelfth post in the series.

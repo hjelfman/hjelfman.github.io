@@ -10,7 +10,7 @@ categories: misc
 - The warmth of the sun, especially in Austin where we have a brief window between annoyingly cold and painfully hot; right now, it's 70 degrees and absolutely pleasant outside.
 - Cold floors. It's nice to come in from a warm day and lie on a cold linoleum floor, letting the heat from your body flow into the floor.
 - Love in all its forms; feeling unconditional acceptance and comfort.
-- Skateboards and bicycles. The feeling of going fast with no seperation between you and your surroundings is unmatched, with wind whipping around you and sun beating down.
+- Skateboards and bicycles. The feeling of going fast with no separation between you and your surroundings is unmatched, with wind whipping around you and sun beating down.
 - Live music, with the feeling of the bass in your chest and your ears ringing with the noise of the band and cheers of the crowd.
 - Seeing your friends grow as people, beginning to come into their own with full enjoyment of their lives.
 - Black coffee in the morning, the steam still drifting off of it, feeling fully energized for the day.

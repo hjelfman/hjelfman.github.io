@@ -175,7 +175,7 @@ This happened last time. Didn't they cover this in the first appointment? Therap
 
 "Lies."
 
-#######"You've said that before-"
+######"You've said that before-"
 
 ----
 

@@ -373,7 +373,17 @@ A: Ask me first please :)
 
 Q: So does everyone in the below thanks list know?
 
-A: No, so you probably shouldn't tell them.
+A: No, so you probably shouldn't tell them unless you ask the above!
+
+
+Q: What's the funniest pickle you've gotten yourself into?
+
+A: I was picking up people for chapter retreat(?) last year and one of the pledges in the car made the Subaru joke(TM). I sometimes do not understand things and thought the pledge had figured everything out, so I was bracing myself before realizing "oh yeah i do actually drive a subaru". Whoops.
+
+
+Q: What are the consequences for me telling other people?
+
+A: Nothing for you! Unfortunately, a portion of my family is rather conservative, and there may be reprecussions for me if they somehow find out. I'd like to be slightly more independent - read: have my own health insurance - before that happens.
 
 Thank to all of you, in no particular order (this list, save for one name, is randomized every time the page is loaded - test it out!):
 

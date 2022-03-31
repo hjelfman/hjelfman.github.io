@@ -328,6 +328,20 @@ P.S.
 
 Don't share this letter - or its contents - right now unless you know the other person's read it; I'm a little bit of a walking disaster, and will be for a bit longer. I've lived with twenty-one years of the status quo - I can wait until I leave Iowa for that to change. Or sooner - who knows what I'm going to do - I sure don't! Feel free to ask questions, etc. of course, anything you want to know, I'll probably answer them truthfully :^). 
 
+Thank to all of you, in no particular order (this list, save for one name, is randomized every time the page is loaded - test it out!):
+
+<p id="names">Trinidad Fleming, </p>
+
+All of you have helped me in some way; I will be forever thankful for that.
+
+<script>
+                var elements = ["Charlotte Leakey", "Natalia Fernelius", "Kenna Tanaka", "John Spencer Mustin", "Pierce Nguyen", "Caleb Domingue", "Harsha Rajesh", "Sachin Nair", "Juliette Draper", "Maggie Ballard", "Kavya Sethi", "Parisa Mahmud", "Chloe P.", "Dominic Galiano", "Hana Cole", "Alaina Tibbs", "Kruti Rachapudi", "Danny Young", "Janavi Chadha", "Jayesh Sharma", "Evan Daane", "Karim Virani", "Cathy Lux", "Alex Grudzinski", "Anish Nayak", "Austin Davis", "Lin Rogers", "Aiden Helfman", "Max Taylor", "Jack Taylor", "Katharine Greer", "Diego B.", "Mary Gregg", "Amanda Ashmead", "Minou Arjomand", "E. Lee Walker"];
+                elements = elements.sort((a, b) => 0.5 - Math.random());
+                var paragraph = document.getElementById("names");
+				var text = document.createTextNode(elements.join(', '));
+				paragraph.appendChild(text);
+</script>
+
 P.P.S
 
 Question I'm going to answer rn so that people don't ask: "What does the 'C' stand for?" I didn't want my initials to be HHH - I'm not a Marvel character - and I really wanted to have some sort of Hebrew name like "Hannah". Luckily, "Hannah" is just as easily transliterated "Chana".
@@ -385,16 +399,12 @@ Q: What are the consequences for me telling other people?
 
 A: Nothing for you! Unfortunately, a portion of my family is rather conservative, and there may be reprecussions for me if they somehow find out. I'd like to be slightly more independent - read: have my own health insurance - before that happens.
 
-Thank to all of you, in no particular order (this list, save for one name, is randomized every time the page is loaded - test it out!):
 
-<p id="names">Trinidad Fleming, </p>
+Q: What's the gematria value of hazel helfman?
 
-All of you have helped me in some way; I will be forever thankful for that.
+A: 666 :( this was completely unintentional.
 
-<script>
-                var elements = ["Charlotte Leakey", "Natalia Fernelius", "Kenna Tanaka", "John Spencer Mustin", "Pierce Nguyen", "Caleb Domingue", "Harsha Rajesh", "Sachin Nair", "Juliette Draper", "Maggie Ballard", "Kavya Sethi", "Parisa Mahmud", "Chloe P.", "Dominic Galiano", "Hana Cole", "Alaina Tibbs", "Kruti Rachapudi", "Danny Young", "Janavi Chadha", "Jayesh Sharma", "Evan Daane", "Karim Virani", "Cathy Lux", "Alex Grudzinski", "Anish Nayak", "Austin Davis", "Lin Rogers", "Aiden Helfman", "Max Taylor", "Jack Taylor", "Katharine Greer", "Diego B.", "Mary Gregg", "Amanda Ashmead", "Minou Arjomand", "E. Lee Walker"];
-                elements = elements.sort((a, b) => 0.5 - Math.random());
-                var paragraph = document.getElementById("names");
-				var text = document.createTextNode(elements.join(', '));
-				paragraph.appendChild(text);
-</script>
+
+Q: You said that you didn't want to focus on the past, however, I still want to pester you with the question of "how did you know?" and don't want to message you about it.
+
+A: There was no one point, but a major turning point was the realization that one day I'd be fifty years old, unhappy with my presentation, my body, etc., filled with regret, and that realization disturbed me more than anything else. The one thing I'm very much afraid of is having regrets. That's about all I'm willing to write down here.

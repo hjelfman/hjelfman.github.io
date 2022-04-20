@@ -25,7 +25,7 @@ A: [Here](https://hjelfman.com/media/).
 <script>
   function change() {
     var b = document.getElementById("name");
-    var names = ["ethan", "hazel", "hazelwood", "hjelfman", "wouldn't you like to know?"];
+    var names = ["hazel", "hazelwood", "hjelfman", "wouldn't you like to know?"];
     const newname = names[Math.floor(Math.random() * names.length)];
     b.innerHTML = newname;
   }

@@ -5,7 +5,7 @@ date: 2022-08-31
 categories: misc
 ---
 
-<img src="../mirror.jpg">
+<img src="https://hjelfman.com/mirror.jpg">
 
 ### Journal 8/15/2021
 One of the biggest issues with KHD syndrome, at least in day-to-day life, is the joint pain. Nothing’s better than stepping off the sidewalk in flip-flops onto asphalt at approximately one degree past your normal ankle rotation, only for your ankle to decide that today’s the day it’s going to give up, turning your awkward step into a ninety-degree twist and tumble onto the ground. Then, there’s the month in a boot, being unable to keep up with your friends and coworkers as they walk around the job site, and after you get the boot off, with the stiffened joint and unresponsive foot, walking like Frankenstein – Frankenstein’s monster if you’re a purist – for days to weeks.

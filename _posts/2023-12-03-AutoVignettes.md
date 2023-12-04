@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "wgs 345 autobiography"
-date: 2023-10-15
+date: 2023-12-03
 categories: misc
 ---
 

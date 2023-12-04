@@ -1,6 +1,6 @@
-title: Hazelwood
+title: the butterfly conservatory
 name: hjelfman
-description: Posts and projects
+description: writing repository
 permalink: /posts/:year/:month/:day/:title/
 
 baseurl: "/"

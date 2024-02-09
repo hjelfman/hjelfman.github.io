@@ -5,7 +5,7 @@ date: 2024-02-09
 categories: misc
 ---
 
-###grow up!!!
+### grow up!!!
 
 my last post was too optimistic and that’s personally very annoying to me so i am going to take an instance of an issue i have with gen z and millennials and generalize it into a generation-spanning trend so that none are exempt.
 
@@ -20,3 +20,8 @@ there are a few issues with this. for the negative argument, even as you read, t
 however, this phenomenon is not new to gen z or millennials. looking at demographic surveys, baby boomers and gen x are guilty of this too! the inability to grapple with the complexities of adult life is not new (though it does seem like millennials/old gen z have it worse, though there isn’t enough information on reader demographics to make an informed inference). hippies and whatever generational trends gen x has (sorry no one cared enough about y’all to record your trends – name one good gen x cultural writer aside from chuck klosterman) were told to grow up too and this critique was essentially correct. and most internalize this critique!
 
 long-dead generations did not have this problem aside from the affluent who wrote books and seemed to be tortured by meaning; their culture falling down upon everyone else put us in this situation – in the past, adulthood was defined by some sort of ritual drawing a line between one state and another with more responsibilities. the absence of this leads us to the current crisis. we need new rituals, but ritual created out in the open fails to capture an essential air to it, and in the information age everything is laid bare. i do not believe that being lax on the young is going to fix this one – it clearly hasn’t in the past. what acts can form a bridge between childhood and adulthood? the well-paved road of adolescence is broken, weeds growing between the cracks and dislodged travelers stuck on the side of the road for a bus that may never come; old rickety wood-rotten bridges in the distance, some leading to an open space of air, some decaying but functional. the steel cables, iron, and concrete yet to be delivered so that a new one may one day reliably span this canyon again.
+
+
+y'all arent ready for whats cooking in the background here:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">because they are among the only people in modern society who undertake a mortifying and harrowing coming of age ritual that ends with choosing a new identity and induction into a rarefied community, trans women are men and cis men are not</p>&mdash; alice maz (@alicemazzy) <a href="https://twitter.com/alicemazzy/status/1656538909738688512?ref_src=twsrc%5Etfw">May 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

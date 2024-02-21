@@ -10,3 +10,4 @@ the above is an example with an unhappy ending. in truth, many learning experien
 
 ***
 
+there's a woman at a club in barcelona. the bottom floor of the club is a large dancefloor ringed by bars; going toward the back, there are stairs leading to restrooms that could be doubly classified as biohazards, upward leading to four other rooms playing a variety of music with flashing lights, each with their own bars. from there exist two quieter smoking terraces. moving through the dancefloor, up the stairs, and through the rooms (r&b, then

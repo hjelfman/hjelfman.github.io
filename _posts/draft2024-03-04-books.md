@@ -1,0 +1,142 @@
+this is a collection of every book i have read since i became a person or w/e. i've dropped books which i didn't enjoy enough to remember and those which had minimal effect on me.
+
+- the left behind: decline and rage in rural america
+
+being from texas i eventually want to write something about the rise in overt christian nationalism. that will come at a later date; regardless, this is supposed to be a sympathetic look at rural america from the perspective of the coastal elites, and it does quite a good job doing so. however, as someone who is not a coastal elite -- get me out of here!! yes, they are misinformed. no, there is no fixing the issues with rural america. rural lifestyles are already subsidized enough by the government; personally, i think we should end corn and soy subsidies. furthermore, the community-style living the book describes is both good and will also inevitably decline over the next fifty years, not just because of deindustrialization and brain drain, but also as the internet accelerates the ever-present isolation of rural communities. these moral communities will not make it out of the near future.
+
+- the social origins of language
+- the decline and fall of the roman empire
+- mrs. dalloway
+- aspects of the masculine
+- a confederacy of dunces
+- never eat alone
+- wittgenstein's mistress
+- india: a history
+- how to hide an empire
+- stone butch blues
+- the world of the shining prince
+- little blue encyclopedia
+- autumn in the heavenly kingdom
+- the red book
+- orlando
+- nixon agonistes
+- kushiel's avatar
+- kushiel's chosen
+- kushiel's dart
+- humble pi
+- dao de jing
+- animal money
+- never let me go
+- a room of one's own
+- indiana
+- the iliad
+- the woman warrior
+- the house on mango street
+- the devil's pool
+- francois the waif
+- writing a woman's life
+- i know why the caged bird sings
+- the closing of the american mind
+- moby dick
+- journal of a solitude
+- any other city
+- the yellow wallpaper
+- sylvia plath: collected poems
+- our [redacted]
+- biography of x
+- the amazon and the page
+- the muse of the violets
+- king, queen, knave
+- my year of rest and relaxation
+- the web of meaning
+- dorley
+- pale fire
+- there is no antimemetics division
+- our wives under the sea
+- the fifth wound
+- infect your friends and loved ones
+- dykes to watch out for
+- tomorrow and tomorrow and tomorrow
+- a dream of a woman
+- i like you: hospitality under the influence
+- the anthropocene reviewed
+- ccru
+- this is how you lose the time war
+- my lesbian experience with lonliness
+- letters for my sisters
+- jane eyre (x2)
+- a desolation called peace
+- the bell jar
+- blood meridian
+- tragedy queens
+- a safe girl to love
+- summer fun
+- f[redacted]
+- the plutonium files
+- lolita
+- the straight mind
+- trans girl suicide museum
+- paul takes the form of a mortal girl
+- are you my mother?
+- fun home
+- true bix
+- the sentence
+- the goldfinch
+- sappho
+- readme.txt
+- [redacted] for the end of the world
+- the ego and its own
+- the body keeps the score
+- INTROSPECT
+- a psalm for the wild-built
+- the galaxy and the ground within
+- a memory called empire
+- worm
+- G-d in search of man
+- variations on the body
+- i am a strange loop
+- homosexual desire
+- the good earth
+- whipping firl
+- house of leaves
+- xenofeminism
+- two essays on analytical psychology
+- a molecule away from madness
+- legal systems very different from ours
+- little fish
+- at the existentialist cafe
+- detransition baby
+- focusing
+- on becoming a person
+- when we cease to understand the world
+- why fish don't exist
+- chaos
+- unsong
+- ignition!
+- the unbearable lightness of being
+- the evolving self
+- seeing like a state
+- GEB
+- empire of pain
+- transformer
+- and the band played on
+- a pattern language
+- ficciones
+- impro
+- song of achilles
+- ishi in two worlds
+- bury my heart at wounded knee
+- pedagogy of the oppressed
+- 1491
+- the unreality of memory
+- boom town
+- ishmael
+- the book of unconformities
+- man's search for meaning
+- the nix
+- discussion of the method
+- crazy like us
+- the last days of judas iscariot
+- infinite jest
+- the geography of nowhere
+- nevada

@@ -5,7 +5,13 @@ this is a collection of every book i have read since i became a person or w/e. i
 being from texas i eventually want to write something about the rise in overt christian nationalism. that will come at a later date; regardless, this is supposed to be a sympathetic look at rural america from the perspective of the coastal elites, and it does quite a good job doing so. however, as someone who is not a coastal elite -- get me out of here!! yes, they are misinformed. no, there is no fixing the issues with rural america. rural lifestyles are already subsidized enough by the government; personally, i think we should end corn and soy subsidies. furthermore, the community-style living the book describes is both good and will also inevitably decline over the next fifty years, not just because of deindustrialization and brain drain, but also as the internet accelerates the ever-present isolation of rural communities. these moral communities will not make it out of the near future.
 
 - the social origins of language
+
+ok so i believe that language, while dependent on people, has kind of become its own alien thing which hijacks our minds. usually when i talk about this people tell me to shut up for very good reasons. this book was informative as it describes how language came to be as an increasingly-complex system for social signaling. those who can properly signal danger and coordinate with others survived more often, and it turns out that more complex systems increase the level of detail one can use to signal their status, a threat, etc. it's a really good foundation for my b.s. but i need to find a book which discusses the idea of lying.
+
 - the decline and fall of the roman empire
+
+this book was definitely an indulgence; the author clearly has preconceptions about how the world ought to be and they bleed through, though in a way you can identify thankfully. regardless, it is a very well-written work and the details of the characters of the emperors were interesting to me; the faults of those in the past are not much different than those of today, and as a result this book feels very human.
+  
 - mrs. dalloway
 - aspects of the masculine
 - a confederacy of dunces

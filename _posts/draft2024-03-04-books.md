@@ -18,13 +18,28 @@ i love virginia woolf's writing so much. that's all.
   
 - aspects of the masculine
 
-carl jun
+carl jung is very interesting and though he is definitely Woo, its an entertaining read. his discussion of the anima, animus, and the takeover of the person by either feels both incorrect and gesturing at something which exists.
 
 - a confederacy of dunces
+
+this is a character study of a type of guy who is somewhat common in stem spaces, overrepresented online, and in graduates of my high school. i want to get these groups to read this book, and upon seeing themselves reflected in ignatius, change everything about themselves and turn their ambitions into action. just a pipe dream
+
 - never eat alone
+
+i picked this up at a free library while waiting for my job to start. the whole "talk to people and make friends with them, keep in contact" is good advice, but its one of those books which could have been a tweet.
+  
 - wittgenstein's mistress
+
+i read this in one night while at a mediocre show at a bar. it felt like my brain was being dipped in acid -- very enjoyable.
+
 - india: a history
+
+when i took world history, we mostly skipped over indian history, just discussing mohenjo-daro, the mughals, and the raj, and i've felt that asia is generally a blind spot for me. this book attempts to cover all of indian history from pre-civilization to present and it does a good job at doing so with a high-level summary. unfortunately, given my lack of prior knowledge on the topic, i am unable to assess the ways in which this work would be biased, but it succeeded in informing me about an area i have little knowledge in.
+
 - how to hide an empire
+
+how to hide an empire would probably be really good if i weren't a very online leftist for a majority of my adult life (and before that, i read a peoples' history at 12 because i was a weird kid)! america's colonialism is very underdiscussed (though we did at least talk about the philippines in high school) and it does a great job in covering that; it just wasn't informative for me but for the parts on macarthur. what was his problem.
+  
 - stone butch blues
 - the world of the shining prince
 - little blue encyclopedia

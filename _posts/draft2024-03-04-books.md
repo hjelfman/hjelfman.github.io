@@ -228,11 +228,17 @@ bloom is right in part; a lot of his critiques feel like an antiquated version o
 - discussion of the method
 - crazy like us
 - the last days of judas iscariot
+
+this is my favorite play. i was not raised christian and it still seems utterly foreign to me a lot of the time. however, the combination of biblical and historic figures is enjoyable, and i've always enjoyed art which casts judas as sympathetic.
+
 - infinite jest
 
 read this out of spite. unbearable but for the parts with the canadian agents.
 
 - the geography of nowhere
+
+if you're into yimby/car/suburb stuff read this book. its been too long to recall anything specific apart from enjoying it.
+
 - nevada
 
 this is cheating because i first read this in high school about the same time i read the brief wondrous life of oscar wao, which is a very similar book stylistically (turns out that this is because imogen binnie was inspired by junot diaz!). as someone who was in both character's positions at different points in my life, it's hard to write something unbiased about it. i like that maria is not a good person! her girlfriend's assessment of her is essentially right, and binnie does an amazing job of capturing maria's narrativization which assists with All of That; i have suffered from similar issues at times in that i am a chronic bullshitter and its nice being trashed in a book.

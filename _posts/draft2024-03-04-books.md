@@ -41,10 +41,25 @@ when i took world history, we mostly skipped over indian history, just discussin
 how to hide an empire would probably be really good if i weren't a very online leftist for a majority of my adult life (and before that, i read a peoples' history at 12 because i was a weird kid)! america's colonialism is very underdiscussed (though we did at least talk about the philippines in high school) and it does a great job in covering that; it just wasn't informative for me but for the parts on macarthur. what was his problem.
   
 - stone butch blues
+ 
+i put off reading this book for years and i should not have; i had dismissed it as a book "from the other side" that i wouldn't enjoy and as a result nearly missed out on one of the best books i read in 2023. feinberg's experiences (yes i know this book isn't strictly autobiographical -- regardless) growing up straddle a line between relatable and alien, and her struggles with femininity, choosing to take testosterone, and (especially) her eventual detransition hit close to home.
+
 - the world of the shining prince
+
+again, i have a major blind spot surrounding asia; this book was another attempt to see into an alien culture, especially pre-westernization.
+
 - little blue encyclopedia
+
+solid trans fiction. not much to say - some parts reminded me of my friendships with others which i've made and (in some cases) lost. i suppose that the feeling of premature loss is all too common in trans spaces, and that hurts, a lot.
+
 - autumn in the heavenly kingdom
+
+another blind-spot book! this was some of the most gripping historical non-fiction i have ever read. the author does such a good job detailing troop and high-ranking figures' movements and the increasing sense of desperation from the rebels. this is an almost-theatrical event in chinese history.
+
 - the red book
+
+i have a fascination with carl jung; the stories he recounts in this book were formed by a process i would call "active dreaming" while awake. it almost feels as if it should belong in a fiction section instead of psychology, but some of the insights he gains strike close to home, though i am suspect of the reasons for this. it seems either that 1) early-1900s psychology has embedded itself into the way we think now or 2) that they genuinely did find something in the human psyche and sometimes i tend toward 1).
+  
 - orlando
 
 see longer writeup

@@ -117,8 +117,17 @@ the past is an alien world; george sand does a great job of writing about how wo
 see above.
 
 - writing a woman's life
+ 
+this is a book in part about gender roles and how they shape the way a woman tends to view her life; it is also about the traditional "lifecycle" of a woman in a way that is both antiquated due to the perpetual adolescence demanded of us and the dissolution of gender roles overall. it's from a different time but still holds some wisdom.
+
 - i know why the caged bird sings
+
+america's history is closer than we think.
+  
 - the closing of the american mind
+
+
+  
 - moby dick
 - journal of a solitude
 - any other city
@@ -220,6 +229,9 @@ see above.
 - crazy like us
 - the last days of judas iscariot
 - infinite jest
+
+read this out of spite. unbearable but for the parts with the canadian agents.
+
 - the geography of nowhere
 - nevada
 

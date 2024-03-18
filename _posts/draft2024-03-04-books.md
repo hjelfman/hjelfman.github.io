@@ -126,7 +126,7 @@ america's history is closer than we think.
   
 - the closing of the american mind
 
-
+bloom is right in part; a lot of his critiques feel like an antiquated version of the bridge to meta-rationality. i do believe that "great books" are genuinely better, but also am unsure what to do with that -- they lost a long time ago, and with ever-diminishing attention spans, i do not think that they're coming back, which is a shame. also, he's just right with the commodification of rebellion. if anything, it's gotten worse. his critique of relativism is right in that i have met people who fit the mold he's describing; wrong in that some have good reasons to adopt these positions. his last section on the decline of love is interesting given the increases in anxiety in gen Z. finally, the freedom of speech discussion is solid, though this does put me at odds with a current strain of thought at colleges. however, the solution is probably to move away from the institution of college, which will probably never happen.
   
 - moby dick
 - journal of a solitude

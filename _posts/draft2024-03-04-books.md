@@ -65,20 +65,57 @@ i have a fascination with carl jung; the stories he recounts in this book were f
 see longer writeup
 
 - nixon agonistes
-- kushiel's avatar
-- kushiel's chosen
-- kushiel's dart
+
+with enough self-hatred you can really do anything.
+
+- kushiel's dart; kushiel's chosen; kushiel's avatar
+
+combining this series for convenience' sake. this series is 85% palace intrigue in an alternate universe mediterranean where christianity got replaced by a cult of eros and 15% smut. it's really, really good and i could not put it down -- i think i read all 3000 pages within the span of a week. palace intrigue is a bit of a guilty pleasure for me. the range of cultures, characters, and depth of history built into this series make it a very good read even if the other 15% isn't your thing.
+
 - humble pi
+
+geared toward a different audience.
+  
 - dao de jing
+
+another blind spot book. ultimately good, but i feel like there's a good amount of context i don't have which keeps me from evaluating this book though its broader themes are probably good for the anxious generation to internalize.
+
 - animal money
+
+this book, like wittgenstein's mistress, made me feel as if my brain were melting, and i loved it! indescribably good -- its a book about the cult of economics. it feels like what the scpwiki is trying to do. it felt like there was somebody behind me watching me read it; like the book itself would suck me in as i find myself in an alien world untethered from all signifiers which distinguish objects from each other.
+
 - never let me go
+
+people which read this book and think that it is a critique of government/omelas/etc are missing the point a little bit. it is, but only in the same way that the barbie movie is about feminism. it's actually all about death, and living a meaningful one in the face of its eventuality.
+
 - a room of one's own
+
+this is what got me into virginia woolf -- i read this for a womens' autobiography class in college. it discusses a material component of womens' independence that a lot of (what i want to say popular, cultural, folk, along these lines) feminism lacks. as well, woolfs writing is just wonderful.
+
 - indiana
+
+this book was recommended to me by the same professor as above. i really like george sand; her writing is a sliver of a much different world for women than what we have now. i am thankful for these changes though oddly wistful for delinated social customs.
+  
 - the iliad
+
+i never had much exposure to the classics; this was an attempt at it. though the poetry was beautiful, again, this book was about death to me, the wanton killing of youth in their prime, their ancestors listed behind them. it's a different way to look at dying in battle. maybe this is one of the things that modern warfare changed (not for the better or worse - just different).
+  
 - the woman warrior
+
+womens' autobiography book. the replication of close family ties and reconciling how an aged family member has acted in the past and present is not yet something i have had the chance to fully realize; this was a look into the future.
+  
 - the house on mango street
+
+womens' autobiography book. not a short-narrative fan.
+
 - the devil's pool
+
+the past is an alien world; george sand does a great job of writing about how women lived in a time different from ours.
+
 - francois the waif
+
+see above.
+
 - writing a woman's life
 - i know why the caged bird sings
 - the closing of the american mind

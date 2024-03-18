@@ -13,7 +13,13 @@ ok so i believe that language, while dependent on people, has kind of become its
 this book was definitely an indulgence; the author clearly has preconceptions about how the world ought to be and they bleed through, though in a way you can identify thankfully. regardless, it is a very well-written work and the details of the characters of the emperors were interesting to me; the faults of those in the past are not much different than those of today, and as a result this book feels very human.
   
 - mrs. dalloway
+
+i love virginia woolf's writing so much. that's all.
+  
 - aspects of the masculine
+
+carl jun
+
 - a confederacy of dunces
 - never eat alone
 - wittgenstein's mistress
@@ -25,6 +31,9 @@ this book was definitely an indulgence; the author clearly has preconceptions ab
 - autumn in the heavenly kingdom
 - the red book
 - orlando
+
+see longer writeup
+
 - nixon agonistes
 - kushiel's avatar
 - kushiel's chosen
@@ -146,3 +155,5 @@ this book was definitely an indulgence; the author clearly has preconceptions ab
 - infinite jest
 - the geography of nowhere
 - nevada
+
+this is cheating because i first read this in high school about the same time i read the brief wondrous life of oscar wao, which is a very similar book stylistically (turns out that this is because imogen binnie was inspired by junot diaz!). as someone who was in both character's positions at different points in my life, it's hard to write something unbiased about it. i like that maria is not a good person! her girlfriend's assessment of her is essentially right, and binnie does an amazing job of capturing maria's narrativization which assists with All of That; i have suffered from similar issues at times in that i am a chronic bullshitter and its nice being trashed in a book.

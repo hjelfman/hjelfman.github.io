@@ -7,4 +7,4 @@ categories: misc
 
 <img src="https://hjelfman.com/635.jpg" width="10%">
 
-normal woman under unusual circumstance
+glorified plumber; compulsive writer; weightily light. 

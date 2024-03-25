@@ -129,40 +129,145 @@ america's history is closer than we think.
 bloom is right in part; a lot of his critiques feel like an antiquated version of the bridge to meta-rationality. i do believe that "great books" are genuinely better, but also am unsure what to do with that -- they lost a long time ago, and with ever-diminishing attention spans, i do not think that they're coming back, which is a shame. also, he's just right with the commodification of rebellion. if anything, it's gotten worse. his critique of relativism is right in that i have met people who fit the mold he's describing; wrong in that some have good reasons to adopt these positions. his last section on the decline of love is interesting given the increases in anxiety in gen Z. finally, the freedom of speech discussion is solid, though this does put me at odds with a current strain of thought at colleges. however, the solution is probably to move away from the institution of college, which will probably never happen.
   
 - moby dick
+
+this book got me into reading the "classics" -- it's incredibly enjoyable and the experiences of the book despite being divorced from anything which i would experience now are still universal.
+  
 - journal of a solitude
+
+not actually a solitude
+  
 - any other city
+
+trans lit. don't remember.
+  
 - the yellow wallpaper
+
+omg she's literally me
+
 - sylvia plath: collected poems
+
+omg she's literally me
+  
 - our [redacted]
+
+i'm from the south and oftentimes the horrors of slavery are slighted in schools' instruction and this was a very good book which counters some of this intentional mistelling.
+
 - biography of x
+
+good romance novel with an unreliable protagonist! if you're grappling with the concept of (auto)biography this book makes it more difficult (good). also, the world-building in this book is top-notch; an alternate-history america which reuses some tropes of a theocratic south while avoiding some of the more stereotypical liberties books like this take.
+  
 - the amazon and the page
+
+read this during my womens' autobiography class as a potential alternative to the biography of x after finding out about it on twitter. enjoyable.
+
 - the muse of the violets
+
+good poetry, though there is something missing as it was translated from french.
+  
 - king, queen, knave
+
+not much to say.
+  
 - my year of rest and relaxation
+
+i think that people get the wrong idea from this book, either romanticizing their rot-girl aesthetic or taking it as a lesson. the actual lesson is that everyone in this book is a terrible person and also that a lesser suicide is still bad.
+  
 - the web of meaning
+
+read this while traveling cross country. i don't think its right but can see scenarios in which this way of thinking would be useful.
+  
 - dorley
+
+very enjoyable wish-fulfillment fiction
+  
 - pale fire
+
+love an unreliable narrarator. the prose is excellent as always.
+  
 - there is no antimemetics division
+
+this was good! it'd be better freed from the format of an scp however, and i like the concept of antimemes in general.
+  
 - our wives under the sea
+
+horror-romance about the end of a relationship. 
+  
 - the fifth wound
+
+trans-lit that makes my brain feel like its dissolving (best-in-class).
+  
 - infect your friends and loved ones
+
+solid trans-short-story!
+  
 - dykes to watch out for
+
+main takeaways: there is nothing new under the sun and everything we argue about will remain forever.
+
 - tomorrow and tomorrow and tomorrow
+
+i was skeptical of this book as it was an airport bestseller about the videogame industry; i finished it on the flight and its actually a really good book about dying.
+  
 - a dream of a woman
+
+trans-lit :)
+  
 - i like you: hospitality under the influence
+
+needed something to read on an emergency flight -- very funny and made me want to host more dinner parties.
+  
 - the anthropocene reviewed
+
+read this on a flight after the end of a six-year relationship. green's thoughts on a consistent mental state and the universe were actually quite touching. it was what i needed at the time.
+  
 - ccru
+
+i feel like i passively absorbed the content of this book by being on the internet for 15 years but the concept of hyperstition would be pretty interesting if i hadn't.
+  
 - this is how you lose the time war
+
+i like romance novels and time travel. good if you're the kinda kid who was on tumblr and liked homestuck.
+  
 - my lesbian experience with lonliness
+
+unremarkable, but not for me.
+
 - letters for my sisters
+
+a glimpse into a different time for trans people! really good.
+  
 - jane eyre (x2)
-- a desolation called peace
+
+one of my favorite books! i like _good_ romance and the glimpse into past gender roles is great, not to mention the story of the books' publishing. eyre's account of herself is ripe for interpretation even if you are not the kind of person who usually does that, which is possibly why this book is commonly taught.
+
+- a desolation called peace/a memory called empire
+
+palace intrigue in space part one and two. love it but you should look up the keyword "maz substack memory called empire" to find a better piece that gives it more thought than i will. one of my favorites.
+
 - the bell jar
+
+she's just like me fr. but this book seriously got me into the subgenre of women's (auto)biography. her feelings are universal and there are some points in the novel which resonate strongly with events in my past.
+
 - blood meridian
+
+my favorite book about gnosticism. 
+  
 - tragedy queens
+
+did not like. trans-lit.
+
 - a safe girl to love
+
+trans-lit, good.
+
 - summer fun
+
+really good trans-lit based off an imaginary correspondence. top in class.
+  
 - f[redacted]
+
+love it love it. must have rocked to be in nyc in the 70s and 80s but for...everything else and what was about to happen.
+  
 - the plutonium files
 - lolita
 - the straight mind
@@ -227,6 +332,18 @@ bloom is right in part; a lot of his critiques feel like an antiquated version o
 - the nix
 - discussion of the method
 - crazy like us
+- annihilation
+
+scp-like book; good horror.
+  
+- the illiberals
+
+read: seeing like a state
+
+- government paternalism
+
+interesting! i still dislike when i can tell that i am being nudged to do something however
+
 - the last days of judas iscariot
 
 this is my favorite play. i was not raised christian and it still seems utterly foreign to me a lot of the time. however, the combination of biblical and historic figures is enjoyable, and i've always enjoyed art which casts judas as sympathetic.

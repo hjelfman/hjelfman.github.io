@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "headFont";
+  src: url("http://hjelfman.com/assets/abrilfatface-regular-webfont.woff2");
+}
+
 html {
     font-family: 'PT Sans', sans-serif;
     background-color: #ffffff;
@@ -17,6 +22,7 @@ a.site-title {
 }
 
 .site-title {
+    font-family: headFont, serif;
     color: #086788;
 }
 

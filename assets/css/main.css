@@ -5,12 +5,12 @@
 
 html {
     font-family: 'PT Sans', sans-serif;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #ffecb4;
+    color: #5a3d2b;
 }
 
 a {
-    color: #000000;
+    color: #5a3d2b;
 }
 
 code {
@@ -23,7 +23,7 @@ a.site-title {
 
 .site-title {
     font-family: headFont, serif;
-    color: #086788;
+    color: #75c8ae;
 }
 
 a.navigation-item {
@@ -31,6 +31,17 @@ a.navigation-item {
 }
 
 .navigation-item {
-    color: #000000;
+    color: #5a3d2b;
     border-bottom: 2px solid #f0c808;
+    font-family: headFont, serif;
+}
+
+.fancy {
+  font-family: headFont, serif;
+  color: #f4a127;
+}
+
+.fancydate {
+  font-family: headFont, serif;
+  color: #e5771e;
 }

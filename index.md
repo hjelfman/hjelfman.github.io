@@ -7,4 +7,4 @@ categories: misc
 
 <img src="https://hjelfman.com/635.jpg" width="10%">
 
-of two minds; fancy plumber.
+vanity! all is vanity!

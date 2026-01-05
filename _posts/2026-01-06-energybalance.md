@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "energy balances"
-date: 2025-12-10
+date: 2026-01-06
 categories: misc
 ---
 
 Chemical engineer voice: "Have you considered that everything is an energy balance?"
 
-Even a person, we can model as a basic energy balance. To sustain life, they will need to support biological activities with a caloric (or energy cost) of O, which is dissipated largely as heat (this is why people run at ∼98.6∘F and not ambient). To do so, one must intake at least an equivalent energy I in the way of food. These two alone suggest every individual eats exactly what they expend. Luckily, we store energy G in the way of glycogen, fat, and muscle, and may expend this later in the form C. Complicating this is that various processes within the body may detect these flows and vary the rate at which they expend energy accordingly.
+Given a person, we can convert their life into a basic energy balance. Dehumanizing, sure, but they will need to support biological activities with a caloric (or energy cost) of O, which is dissipated largely as heat (this is why people run at ∼98.6∘F and not ambient). To do so, one must consume at least an equivalent energy I in the way of food. These two alone suggest every individual eats exactly what they expend. Luckily, we store energy G in the way of glycogen, fat, and muscle, and may expend this later in the form C. Complicating this is that various processes within the body may detect these flows and vary the rate at which they expend energy accordingly.
 
-As an example, I am currently 5′5′′ and ∼118 lb. At this height and weight, one would expect me to burn ∼1500 kcal/day by virtue of existing. Additionally, I enjoy running, which transforms additional energy into heat. If, say, you run in 60∘F weather and walk, then compare the differences in sensation at a rate of ∼500 kcal/day. However, I struggle to eat 2300 kcal/day. Ideally, one would expect me to lose weight (G and I have). However, given that I do not weigh 150 lb at the moment, something else must be happening.
+As an example, I am currently 5′5′′ and ∼118 lb. At this height and weight, one would expect me to burn ∼1500 kcaal/day by virtue of existing. Additionally, I enjoy running, which transforms additional energy into heat (if you doubt this, try running in 16∘F weather and walking, then compare the differences in sensation!) at a rate of ∼800 kcal/day. However, I struggle to eat 2300 kcal/day. Naively, one would expect me to lose weight (and I have lost a bit). However, given that I do not weigh 80 lb at the moment, something else must be happening.
 
 <img src="https://hjelfman.com/Screenshot from 2025-12-07 19-17-49.png" width="100%">
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "castration movie one review"
-date: 2026-01-XX
+date: 2026-01-12
 categories: misc
 ---
 

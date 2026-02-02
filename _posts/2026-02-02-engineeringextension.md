@@ -31,13 +31,13 @@ _example 2: iterations of governance_
 
 when entering the modern age, economies tend to pass through the stages of engineering -> lawyerly -> service[^1].
 
-[^1] breakneck, dan wang
+[^1]: breakneck, dan wang
 
 *iteration 1: the engineering state*
 
 when given the ability to build works to benefit the people, most governments attempt to do so to build legitimacy; in early times this method is mainly dictated by engineers in goal-oriented development whether that be a transcontinental railroad, interstate highway system, or electrification. such large scale projects require the use of engineers. however, building toward a goal alone ignores externalities (pollution and the like)[^2]. citizens of the state ride the hedonic treadmill as they adjust to the benefits of modernity. their toleration of these externalities decreases, moving to the lawyer state.
 
-[^2] interesting modern example in the transoceanic railway in southern mexico
+[^2]: interesting modern example in the transoceanic railway in southern mexico
 
 the lawyer state seeks to protect its citizens from the externalities of engineering through the legal system. while this seems to be easiest under english common law, any government with a sufficiently independent judicial system may experience this change. to some extent this is necessary. goal oriented development cares more for its ends and the gung-ho attitude of many engineers needs to be reigned in. the lawyerly state fails as it becomes a roadblock to progress; change may not be tolerated if it causes a temporary reduction in living standards for some. after all, not many are true utilitarians.
 

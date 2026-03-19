@@ -10,7 +10,7 @@ Let me preface this post with the fact that some of my best friends have been or
 In *American Diner Gothic*, Robert Mariani characterizes the dinergoth aethetic as a universalizing weirdness brought on by the dissemination of traits previously concentrated within the internet into the real world; in material terms, provincial alternative aesthetics. This bleeding of internet-based aesthetics into the real world is indisputable. With the internet constantly at one's fingertips and others increasingly atomized from one another, how could it not be? An idiom from a previous age is that we are the average of the five we are most often around; now many are no longer close to even five, with the internet acting as ersatz companionship. Radio waves are the great homogenizer as we rot in our homes with our thoughts interspersed between scrolling. There is abundance in this world, but it is not evenly distributed. For those without material resources, they only have the firehose of content.
 
 <figure>
-<img src="https://hjelfman.com/dallasdiner.jpg" width="100%">
+<img src="https://hjelfman.com/dinerdallas.jpg" width="100%">
 <figcaption>look i'd be online too</figcaption>
 </figure>
 

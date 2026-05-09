@@ -12,13 +12,12 @@ hi! my name is hazel! i currently live in new york city and work in the chemical
 if you want to get coffee with me or otherwise meet me email me at hazel@hjelfman.com.
 
 <div id="ui-container">
-        <button onclick="displayRegexMatch()">load a leaf of grass</button>
-    </div>
+    <button onclick="displayRegexMatch()">load a leaf of grass</button>
+</div>
 
-    <!-- Where the filtered text will appear -->
-    <div id="output">
+<div id="output">
         whitman loading
-    </div>
+</div>
 
 <ul class="list-reset">
     {% for post in site.posts %}
@@ -51,7 +50,7 @@ async function displayRegexMatch() {
 
                 // 2. The Regex Pattern 
                 // This example looks for any word inside [brackets]
-                const regex = (?<=\n{2})([\s\S]*?)(?<=\n{5}); 
+                const regex = /(?<=\n{2})([\s\S]*?)(?<=\n{5})/g; 
 
                 // 3. Find matches
                 const matches = text.match(regex);

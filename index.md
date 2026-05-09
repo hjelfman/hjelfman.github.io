@@ -11,6 +11,15 @@ hi! my name is hazel! i currently live in new york city and work in the chemical
 
 if you want to get coffee with me or otherwise meet me email me at hazel@hjelfman.com.
 
+<div id="ui-container">
+        <button onclick="displayRegexMatch()">load a leaf of grass</button>
+    </div>
+
+    <!-- Where the filtered text will appear -->
+    <div id="output">
+        whitman loading
+    </div>
+
 <ul class="list-reset">
     {% for post in site.posts %}
     <li>
@@ -30,29 +39,34 @@ if you want to get coffee with me or otherwise meet me email me at hazel@hjelfma
 
 <script>
 async function displayRegexMatch() {
-    try {
-        // 1. Fetch the file
-        const response = await fetch('https://hjelfman.com/grass.txt');
-        const text = await response.text();
+            const displayArea = document.getElementById('output');
+            
+            try {
+                // 1. Fetch the text file (ensure 'manifesto.txt' is in the same folder)
+                const response = await fetch('grass.txt');
+                
+                if (!response.ok) throw new Error("File not found in this dimension.");
+                
+                const text = await response.text();
 
-        // 2. Define your Regex
-        // Example: Finds all words starting with "TRUTH" (case insensitive)
-        const regex = (?<=\n{2})([\s\S]*?)(?<=\n{5}); 
+                // 2. The Regex Pattern 
+                // This example looks for any word inside [brackets]
+                const regex = (?<=\n{2})([\s\S]*?)(?<=\n{5}); 
 
-        // 3. Find matches
-        const matches = text.match(regex);
+                // 3. Find matches
+                const matches = text.match(regex);
 
-        // 4. Display in the DOM
-        const displayArea = document.getElementById('output');
-        if (matches) {
-            displayArea.innerHTML = matches.join('<br>');
-        } else {
-            displayArea.innerText = "No matches found in the cubic void.";
+                // 4. Inject into HTML with our 'vibrate' class for flavor
+                if (matches && matches.length > 0) {
+                    displayArea.innerHTML = matches
+                        .map(m => `<p class="vibrate">${m}</p>`)
+                        .join('');
+                } else {
+                    displayArea.innerHTML = "<p>walt whitman not found/p>";
+                }
+
+            } catch (err) {
+                displayArea.innerHTML = `<p style="color:red">ERROR: ${err.message}</p>`;
+            }
         }
-    } catch (err) {
-        console.error("Error fetching the truth:", err);
-    }
-}
-
-displayRegexMatch();
 </script>

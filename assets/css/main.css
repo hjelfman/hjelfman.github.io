@@ -80,7 +80,7 @@ blockquote:hover {
 /* Links that hide until you find them */
 a {
     color: transparent;
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 2px rgba(255,255,255,0.5);
     transition: 0.1s;
 }
 

@@ -1,0 +1,61 @@
+/* --- TIMECUBE OVERRIDE: DO NOT IGNORE THE 4-CORNER TRUTH --- */
+
+/* Force the body to be a void of space */
+html, body {
+    background: #000 !important;
+    color: #fff !important;
+    font-family: "Times New Roman", serif !important;
+    text-align: center !important;
+    cursor: crosshair;
+}
+
+/* Neutralize modern containers/wrappers to allow "The Wall of Text" */
+div, header, main, footer, article {
+    background: transparent !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Clashing Background Sections */
+section:nth-of-type(4n+1) { background-color: #ff0 !important; color: #f00 !important; }
+section:nth-of-type(4n+2) { background-color: #00f !important; color: #fff !important; }
+section:nth-of-type(4n+3) { background-color: #f0f !important; color: #0f0 !important; }
+section:nth-of-type(4n+4) { background-color: #fff !important; color: #000 !important; }
+
+/* Giant Schizophrenic Headers */
+h1, h2, h3 {
+    text-transform: uppercase !important;
+    line-height: 1 !important;
+    margin: 40px 0 !important;
+    display: block !important;
+}
+
+h1 { font-size: 8vw !important; border: 15px double #0f0 !important; background: #fff !important; color: #f00 !important; }
+h2 { font-size: 6vw !important; background: #000 !important; color: #ff0 !important; }
+
+/* Blinking "Truth" Text */
+.truth, strong, b {
+    color: #0f0 !important;
+    animation: timecube-blink 0.5s step-end infinite;
+}
+
+@keyframes timecube-blink {
+    50% { visibility: hidden; }
+}
+
+/* Links that look like malware */
+a {
+    color: #0ff !important;
+    font-size: 1.5em !important;
+    text-decoration: underline !important;
+    font-weight: 900 !important;
+}
+
+a:hover {
+    background: #f0f !important;
+    color: #fff !important;
+}

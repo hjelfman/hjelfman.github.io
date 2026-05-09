@@ -4,10 +4,10 @@ layout: default
 
 hi! my name is hazel! i currently live in new york city and work in the chemicals industry. in my free time i read, write, run, boulder, cook, and go to shows. some of my writing is below.
 
-currently reading: blonde, how progress ends, the bible
-currently cooking: congee
-currently bouldering: v4
-currently listening: allah allah allah
+- currently reading: blonde, how progress ends, the bible
+- currently cooking: congee
+- currently bouldering: v4
+- currently listening: allah allah allah
 
 if you want to get coffee with me or otherwise meet me email me at hazel@hjelfman.com.
 

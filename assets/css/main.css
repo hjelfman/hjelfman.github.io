@@ -1,61 +1,103 @@
-/* --- TIMECUBE OVERRIDE: DO NOT IGNORE THE 4-CORNER TRUTH --- */
-
-/* Force the body to be a void of space */
-html, body {
-    background: #000 !important;
-    color: #fff !important;
-    font-family: "Times New Roman", serif !important;
-    text-align: center !important;
-    cursor: crosshair;
+:root {
+    --bg-void: #000000;
+    --truth-green: #00ff00;
+    --warning-yellow: #ffff00;
+    --blood-red: #ff0000;
+    --schizo-font: "Times New Roman", Times, serif;
 }
 
-/* Neutralize modern containers/wrappers to allow "The Wall of Text" */
-div, header, main, footer, article {
-    background: transparent !important;
-    max-width: 75% !important;
-    width: 75% !important;
-    margin: 0 !important;
-    padding: 10px 0 !important;
-    border: none !important;
-    box-shadow: none !important;
+body {
+    background-color: var(--bg-void);
+    color: #ffffff;
+    font-family: var(--schizo-font);
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 800px; /* Maintains "Blog" readability */
+    padding: 50px 20px;
+    overflow-x: hidden;
 }
 
-/* Clashing Background Sections */
-section:nth-of-type(4n+1) { background-color: #ff0 !important; color: #f00 !important; }
-section:nth-of-type(4n+2) { background-color: #00f !important; color: #fff !important; }
-section:nth-of-type(4n+3) { background-color: #f0f !important; color: #0f0 !important; }
-section:nth-of-type(4n+4) { background-color: #fff !important; color: #000 !important; }
-
-/* Giant Schizophrenic Headers */
-h1, h2, h3 {
-    text-transform: uppercase !important;
-    line-height: 1 !important;
-    margin: 40px 0 !important;
-    display: block !important;
+/* The Title: Absolute Authority */
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: var(--blood-red);
+    text-shadow: 5px 5px var(--warning-yellow);
+    border-bottom: 10px double var(--truth-green);
+    margin-bottom: 50px;
 }
 
-h1 { font-size: 6vw !important; border: 15px double #0f0 !important; background: #fff !important; color: #f00 !important; }
-h2 { font-size: 6vw !important; background: #000 !important; color: #ff0 !important; }
-
-/* Blinking "Truth" Text */
-.truth, strong, b {
-    color: #0f0 !important;
-    animation: timecube-blink 0.5s step-end infinite;
+/* Paragraphs: The "Split Personality" Effect */
+p {
+    margin-bottom: 2rem;
+    transition: all 0.2s;
 }
 
-@keyframes timecube-blink {
-    50% { visibility: hidden; }
+/* Every odd paragraph is aggressive */
+p:nth-child(odd) {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #eee;
 }
 
-/* Links that look like malware */
+/* Every even paragraph is "The Prophet" */
+p:nth-child(even) {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--warning-yellow);
+    text-align: center;
+    text-transform: uppercase;
+    background: #111;
+    padding: 20px;
+    border: 2px dashed var(--blood-red);
+}
+
+/* Randomly rotating images or blocks to feel "unstable" */
+img, blockquote {
+    transform: rotate(-1deg);
+    filter: sepia(100%) saturate(300%) hue-rotate(90deg);
+}
+
+blockquote:hover {
+    transform: rotate(1deg) scale(1.1);
+}
+
+/* The "Vibrating Truth" - apply this class to important words */
+.vibrate {
+    display: inline-block;
+    color: var(--truth-green);
+    animation: shake 0.1s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    25% { transform: translate(-1px, -2px) rotate(-1deg); }
+    50% { transform: translate(-3px, 0px) rotate(1deg); }
+    75% { transform: translate(3px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -1px) rotate(-1deg); }
+}
+
+/* Links that hide until you find them */
 a {
-    color: #0ff !important;
-    font-size: 1.5em !important;
-    text-decoration: underline !important;
-    font-weight: 900 !important;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(255,255,255,0.5);
+    transition: 0.1s;
 }
 
 a:hover {
-    background: #f0f !important;
-    color: #fff !important;
+    color: var(--blood-red) !important;
+    text-shadow: none;
+    font-size: 3rem;
+    background: var(--warning-yellow);
+}
+
+/* Scrollbar from hell */
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: var(--blood-red);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--truth-green);
 }

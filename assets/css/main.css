@@ -12,8 +12,8 @@ html, body {
 /* Neutralize modern containers/wrappers to allow "The Wall of Text" */
 div, header, main, footer, article {
     background: transparent !important;
-    max-width: 100% !important;
-    width: 100% !important;
+    max-width: 75% !important;
+    width: 75% !important;
     margin: 0 !important;
     padding: 10px 0 !important;
     border: none !important;
@@ -34,7 +34,7 @@ h1, h2, h3 {
     display: block !important;
 }
 
-h1 { font-size: 8vw !important; border: 15px double #0f0 !important; background: #fff !important; color: #f00 !important; }
+h1 { font-size: 6vw !important; border: 15px double #0f0 !important; background: #fff !important; color: #f00 !important; }
 h2 { font-size: 6vw !important; background: #000 !important; color: #ff0 !important; }
 
 /* Blinking "Truth" Text */

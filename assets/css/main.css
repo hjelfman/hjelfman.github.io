@@ -42,7 +42,7 @@ p:nth-child(odd) {
 
 /* Every even paragraph is "The Prophet" */
 p:nth-child(even) {
-    font-size: 2.2rem;
+    font-size: 1.4rem;
     font-weight: 900;
     color: var(--warning-yellow);
     text-align: center;
@@ -80,7 +80,7 @@ blockquote:hover {
 /* Links that hide until you find them */
 a {
     color: transparent;
-    text-shadow: 0 0 5px rgba(255,255,255,0.5);
+    text-shadow: 0 0 5px rgba(255,255,255,0.2);
     transition: 0.1s;
 }
 

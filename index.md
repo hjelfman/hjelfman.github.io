@@ -42,7 +42,7 @@ async function displayRegexMatch() {
             
             try {
                 // 1. Fetch the text file (ensure 'manifesto.txt' is in the same folder)
-                const response = await fetch('grass.txt');
+                const response = await fetch('https://hjelfman.com/grass.txt');
                 
                 if (!response.ok) throw new Error("File not found in this dimension.");
                 
@@ -50,7 +50,7 @@ async function displayRegexMatch() {
 
                 // 2. The Regex Pattern 
                 // This example looks for any word inside [brackets]
-                const regex = /(?<=\n{2})([\s\S]*?)(?<=\n{5})/g; 
+                const regex = /(?<=\n{4})([\s\S]*?)(?<=\n{8})/gim; 
 
                 // 3. Find matches
                 const matches = text.match(regex);
@@ -61,7 +61,7 @@ async function displayRegexMatch() {
                         .map(m => `<p class="vibrate">${m}</p>`)
                         .join('');
                 } else {
-                    displayArea.innerHTML = "<p>walt whitman not found/p>";
+                    displayArea.innerHTML = "<p>walt whitman not found</p>";
                 }
 
             } catch (err) {

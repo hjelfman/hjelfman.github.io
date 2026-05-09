@@ -27,3 +27,32 @@ if you want to get coffee with me or otherwise meet me email me at hazel@hjelfma
     </li>
     {% endfor %}
 </ul>
+
+<script>
+async function displayRegexMatch() {
+    try {
+        // 1. Fetch the file
+        const response = await fetch('https://hjelfman.com/grass.txt');
+        const text = await response.text();
+
+        // 2. Define your Regex
+        // Example: Finds all words starting with "TRUTH" (case insensitive)
+        const regex = (?<=\n{2})([\s\S]*?)(?<=\n{5}); 
+
+        // 3. Find matches
+        const matches = text.match(regex);
+
+        // 4. Display in the DOM
+        const displayArea = document.getElementById('output');
+        if (matches) {
+            displayArea.innerHTML = matches.join('<br>');
+        } else {
+            displayArea.innerText = "No matches found in the cubic void.";
+        }
+    } catch (err) {
+        console.error("Error fetching the truth:", err);
+    }
+}
+
+displayRegexMatch();
+</script>

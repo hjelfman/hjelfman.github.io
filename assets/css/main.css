@@ -166,7 +166,7 @@ ul.list-reset li:nth-child(odd) {
     align-items: baseline;
     width: 100%;
     float: none !important;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
 }
 
 .clearfix::before,

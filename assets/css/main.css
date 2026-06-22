@@ -1,103 +1,246 @@
+/* =========================================================
+   "the butterfly conservatory" — takeout menu theme
+   Drop-in replacement for assets/css/main.css
+   Matches the real markup in index.md: ul.list-reset > li >
+   div.clearfix > div.fancydate + div.fancy > a
+   ========================================================= */
+
 :root {
-    --bg-void: #000000;
-    --truth-green: #00ff00;
-    --warning-yellow: #ffff00;
-    --blood-red: #ff0000;
-    --schizo-font: "Times New Roman", Times, serif;
+    --menu-red: #a31f1f;
+    --menu-red-dark: #7a1414;
+    --menu-cream: #fdf6e6;
+    --menu-paper: #fffdf8;
+    --menu-gold: #c9a227;
+    --menu-ink: #221a14;
+    --menu-font: "PT Serif", Georgia, "Times New Roman", serif;
+    --menu-display: "Cinzel", Georgia, serif;
 }
 
 body {
-    background-color: var(--bg-void);
-    color: #ffffff;
-    font-family: var(--schizo-font);
-    line-height: 1.4;
+    background-color: var(--menu-cream);
+    background-image: radial-gradient(rgba(163, 31, 31, 0.05) 1px, transparent 1px);
+    background-size: 14px 14px;
+    color: var(--menu-ink);
+    font-family: var(--menu-font);
+    line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px; /* Maintains "Blog" readability */
+    max-width: 800px;
     padding: 50px 20px;
     overflow-x: hidden;
 }
 
-/* The Title: Absolute Authority */
 h1 {
-    font-size: 5rem;
+    font-family: var(--menu-display);
+    font-size: 2.4rem;
     text-transform: uppercase;
-    color: var(--blood-red);
-    text-shadow: 5px 5px var(--warning-yellow);
-    border-bottom: 10px double var(--truth-green);
-    margin-bottom: 50px;
-}
-
-/* Paragraphs: The "Split Personality" Effect */
-p {
-    margin-bottom: 2rem;
-    transition: all 0.2s;
-}
-
-/* Every odd paragraph is aggressive */
-p:nth-child(odd) {
-    font-size: 1.2rem;
-    text-align: left;
-    color: #eee;
-}
-
-/* Every even paragraph is "The Prophet" */
-p:nth-child(even) {
-    font-size: 1.4rem;
-    font-weight: 900;
-    color: var(--warning-yellow);
+    letter-spacing: 0.05em;
+    color: var(--menu-red);
+    text-shadow: 1px 1px 0 var(--menu-gold);
+    border-bottom: 6px double var(--menu-red);
+    padding-bottom: 0.6rem;
+    margin-bottom: 1.5rem;
     text-align: center;
-    text-transform: uppercase;
-    background: #111;
-    padding: 20px;
-    border: 2px dashed var(--blood-red);
 }
 
-/* Randomly rotating images or blocks to feel "unstable" */
+/* bio paragraphs above the list — plain menu-paper text, no banding
+   (banding is reserved for the actual post rows below) */
+p {
+    margin-bottom: 0.9rem;
+    font-size: 1.05rem;
+    color: var(--menu-ink);
+}
+
 img, blockquote {
-    transform: rotate(-1deg);
-    filter: sepia(100%) saturate(300%) hue-rotate(90deg);
+    border: 2px solid var(--menu-red);
+    outline: 1px solid var(--menu-gold);
+    outline-offset: -5px;
+    padding: 0.5rem;
+    background: var(--menu-paper);
 }
 
-blockquote:hover {
-    transform: rotate(1deg) scale(1.1);
-}
-
-/* The "Vibrating Truth" - apply this class to important words */
-.vibrate {
-    display: inline-block;
-    color: var(--truth-green);
-    animation: shake 0.1s infinite;
-}
-
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    25% { transform: translate(-1px, -2px) rotate(-1deg); }
-    50% { transform: translate(-3px, 0px) rotate(1deg); }
-    75% { transform: translate(3px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -1px) rotate(-1deg); }
-}
-
-/* Links that hide until you find them */
 a {
-    color: transparent;
-    text-shadow: 0 0 2px rgba(255,255,255,0.5);
-    transition: 0.1s;
+    color: var(--menu-red-dark);
+    text-decoration: none;
+    font-weight: 700;
 }
 
 a:hover {
-    color: var(--blood-red) !important;
-    text-shadow: none;
-    font-size: 3rem;
-    background: var(--warning-yellow);
+    color: var(--menu-gold);
+    text-decoration: underline;
 }
 
-/* Scrollbar from hell */
+/* ---------- the "leaf of grass" button + output ---------- */
+
+#ui-container button {
+    background: var(--menu-red);
+    color: #fff8e7;
+    font-family: var(--menu-display);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border: 2px solid var(--menu-gold);
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#ui-container button:hover {
+    background: var(--menu-gold);
+    color: var(--menu-red-dark);
+}
+
+#output {
+    border: 2px solid var(--menu-red);
+    background: var(--menu-paper);
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0 1.5rem;
+    min-height: 1.5rem;
+}
+
+#output p {
+    margin: 0;
+}
+
+/* repurposed as a "spicy" marker instead of a shake animation */
+.vibrate {
+    display: inline-block;
+    color: var(--menu-red);
+    font-weight: 700;
+    animation: spicy-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes spicy-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+}
+
+/* the random "leaf of grass" result, styled like a fortune slip */
+.leaf-title {
+    font-family: var(--menu-display);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--menu-gold);
+    margin: 0 0 0.4rem;
+}
+
+.leaf-body {
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.poem-reveal {
+    animation: leaf-fade-in 0.5s ease-out;
+}
+
+@keyframes leaf-fade-in {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- the menu: post list ---------- */
+
+ul.list-reset {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+    border: 2px solid var(--menu-red);
+    background: var(--menu-paper);
+}
+
+ul.list-reset li {
+    border-bottom: 1px dashed rgba(163, 31, 31, 0.4);
+}
+
+ul.list-reset li:last-child {
+    border-bottom: none;
+}
+
+ul.list-reset li:nth-child(odd) {
+    background: rgba(163, 31, 39, 0.035);
+}
+
+/* override the col-6 float grid: lay the row out as
+   [title][dotted leader][date], like a menu line item */
+.clearfix {
+    display: flex !important;
+    align-items: baseline;
+    width: 100%;
+    float: none !important;
+    padding: 0.5rem 1rem;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: none !important;
+}
+
+/* the title half: grows to fill the row, holds the dotted leader */
+.fancy {
+    order: 1;
+    flex: 1 1 auto;
+    width: auto !important;
+    float: none !important;
+    text-align: left !important;
+    display: flex;
+    align-items: baseline;
+    min-width: 0;
+    padding: 0 !important;
+}
+
+.fancy a {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.fancy::after {
+    content: "";
+    flex: 1 1 auto;
+    border-bottom: 2px dotted var(--menu-red);
+    margin: 0 0.5rem;
+    transform: translateY(-4px);
+    min-width: 1rem;
+}
+
+/* the date half: fixed to its content, plays the "price" role */
+.fancydate {
+    order: 2;
+    flex: 0 0 auto;
+    width: auto !important;
+    float: none !important;
+    text-align: right !important;
+    padding: 0 !important;
+    font-weight: 700;
+    color: var(--menu-red-dark);
+    white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+    .clearfix {
+        flex-wrap: wrap;
+    }
+    .fancy {
+        flex-basis: 100%;
+    }
+    .fancydate {
+        flex-basis: 100%;
+        text-align: left !important;
+        font-size: 0.85rem;
+        opacity: 0.8;
+    }
+}
+
+/* ---------- calm scrollbar ---------- */
+
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 12px;
 }
 ::-webkit-scrollbar-track {
-    background: var(--blood-red);
+    background: var(--menu-cream);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--truth-green);
+    background: var(--menu-red);
+    border-radius: 6px;
 }

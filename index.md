@@ -38,34 +38,58 @@ if you want to get coffee with me or otherwise meet me email me at hazel@hjelfma
 
 <script>
 async function displayRegexMatch() {
-            const displayArea = document.getElementById('output');
-            
-            try {
-                // 1. Fetch the text file (ensure 'manifesto.txt' is in the same folder)
-                const response = await fetch('https://hjelfman.com/grass.txt');
-                
-                if (!response.ok) throw new Error("File not found in this dimension.");
-                
-                const text = await response.text();
+    const displayArea = document.getElementById('output');
+    displayArea.innerHTML = '<p>finding a leaf...</p>';
 
-                // 2. The Regex Pattern 
-                // This example looks for any word inside [brackets]
-                const regex = /(?<=\n{4})([\s\S]*?)(?<=\n{8})/gim; 
+    try {
+        const response = await fetch('https://hjelfman.com/grass.txt');
+        if (!response.ok) throw new Error('grass.txt not found.');
 
-                // 3. Find matches
-                const matches = text.match(regex);
+        let text = await response.text();
 
-                // 4. Inject into HTML with our 'vibrate' class for flavor
-                if (matches && matches.length > 0) {
-                    displayArea.innerHTML = matches
-                        .map(m => `<p class="vibrate">${m}</p>`)
-                        .join('');
-                } else {
-                    displayArea.innerHTML = "<p>walt whitman not found</p>";
-                }
+        // strip Project Gutenberg header/footer boilerplate
+        const startIdx = text.indexOf('*** START OF');
+        if (startIdx !== -1) text = text.slice(text.indexOf('\n', startIdx) + 1);
+        const endIdx = text.indexOf('*** END OF');
+        if (endIdx !== -1) text = text.slice(0, endIdx);
 
-            } catch (err) {
-                displayArea.innerHTML = `<p style="color:red">ERROR: ${err.message}</p>`;
+        // walk paragraph by paragraph (blocks separated by blank lines).
+        // an un-indented one-line block is a title; an indented block
+        // is a stanza belonging to the most recent title.
+        const blocks = text.split(/\n{2,}/).map(b => b.replace(/\s+$/, ''));
+        let currentTitle = '';
+        const leaves = [];
+
+        for (const block of blocks) {
+            if (!block.trim()) continue;
+            const isIndented = /^[ \t]/.test(block);
+
+            if (!isIndented) {
+                const line = block.split('\n')[0].trim();
+                // skip ALL-CAPS section dividers like "BOOK I.  INSCRIPTIONS"
+                if (line && line !== line.toUpperCase()) currentTitle = line;
+                continue;
             }
+
+            const stanza = block.split('\n').map(l => l.replace(/^\s+/, '')).join('\n').trim();
+            if (stanza.length > 5) leaves.push({ title: currentTitle, text: stanza });
         }
+
+        if (leaves.length === 0) {
+            displayArea.innerHTML = '<p>walt whitman not found</p>';
+            return;
+        }
+
+        const leaf = leaves[Math.floor(Math.random() * leaves.length)];
+        const escape = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const lines = escape(leaf.text).split('\n').join('<br>');
+
+        displayArea.innerHTML = `
+            <p class="leaf-title">${escape(leaf.title)}</p>
+            <p class="leaf-body poem-reveal">${lines}</p>
+        `;
+    } catch (err) {
+        displayArea.innerHTML = `<p style="color:red">ERROR: ${err.message}</p>`;
+    }
+}
 </script>

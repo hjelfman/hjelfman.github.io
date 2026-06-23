@@ -1,0 +1,23 @@
+---
+layout: post
+title: "AI as a Democratizing Tool"
+date: 2026-06-23
+categories: misc
+---
+# AI as a Democratizing Tool
+
+Quickly, let me note that I do not believe what I am about to argue, but am doing so as a challenge to myself to consider an alternative point of view.
+
+One ethical framework championed by Martha Nussbaum is that people's quality of life is determined by their ability to seek their own well-being through their own capabilities, or that which they choose to do. Rights are not enough in this framework; rather, one must have the means and ability to choose an act. Nussbaum defines a list of core capabilities (cite). Of particular importance is the capability of imagination, such that one may choose to actualize it. However, there is an issue with this capability: one may be able to imagine many projects which are possible in the world, but they may not have the means to execute them due to a lack of ability. I may be able to imagine a fantastical Bosch-esque scene but be unable to create it due to my lack of artistic talent. A person may be able to develop this talent through years of training; though, given that we have finite lifespans, we may not be capable of achieving all that we wish. This need not be the case with assistance from the right tools. For example, those with vocal cord disorders have gained the ability for expression through the use of computer-aided interpretation, making manifest their thoughts into the world of speech.
+
+Capabilities are arbitrary based on our current society. In a world where all are able to create staggering works of art, if one were unable to create in the same way, it would be viewed as a deficiency. Any aid which granted them the same talent as others would be viewed as granting them a capability to further their well-being. As these are arbitrary, any aid increasing the range of ability to execute their vision onto the world seems to be a good under the capability approach.
+
+We have technology now which allows those lacking skill in one domain to augment themselves. At lower levels, computer drawing programs let those without skills in the physical domain create digital conceptions of what they'd like to see. And now, we have generative AI which gives those lacking in a variety of domains the capability to exercise their full imaginative potential. In the domain of art, if one has the ability to describe what they were previously only able to visualize, they can now realize their imagination. In terms of programming, video, and so on, this is being developed. AI is a means by which people gain a meaningful ability to realize their well-being. Thus, these tools act as an equalizing force to put art creation into the hands of everyone.
+
+Equalizing capability has historically been viewed with resistance, as an unfair advantage granted to those who do not wish to play the game. This is a common critique of accommodations. However, to increase the difficulty of pursuing a capability is to effectively bar it from one's range of options. Just because one has a right to exercise does not mean it is enough; means matter as well. In this view, AI puts the tools of creation in everyone's hands as a net good.
+
+The counter-argument is that we do not live in the counterfactual world; rather, talent is unequally distributed as a fact of life, and capabilities are defined as what is reasonable for one to do given their current body and society. A vocal aid is necessary to function in society; the ability to create works of art is not. Furthermore, AI may not truly allow for the execution of one's vision, but rather distort it as translated through AI layers. Finally, capabilities may be exclusionary; any domain may have a saturation point such that additional works are meaningless. AI accelerates the pace of reaching saturation, devaluing others. Since these human creations are more authentic realizations of imagination than those translated, they deserve priority in the sphere of creation. In this, AI irreversibly increases the friction of exercising others' capabilities, resulting in a net negative to everyone's well-being.
+
+I believe this for some domains, but not all.
+
+The negative view is slightly more convincing to me; however, it remains a useful tool in non-exclusionary or private domains, such that I am for many of its use cases! While "Luddism is bad," the use of LLMs will not cease anytime soon. Though, leaving it up to individuals to determine ethical use leaves plenty of issues given the tendency to act in one's own self-interest. Equilibrium exists, but whether we will find it remains uncertain.

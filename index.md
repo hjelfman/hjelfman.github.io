@@ -47,32 +47,41 @@ async function displayRegexMatch() {
 
         let text = await response.text();
 
+        // 1. Fix Windows line endings (\r\n -> \n)
+        text = text.replace(/\r\n/g, '\n');
+
         // strip Project Gutenberg header/footer boilerplate
         const startIdx = text.indexOf('*** START OF');
         if (startIdx !== -1) text = text.slice(text.indexOf('\n', startIdx) + 1);
         const endIdx = text.indexOf('*** END OF');
         if (endIdx !== -1) text = text.slice(0, endIdx);
 
-        // walk paragraph by paragraph (blocks separated by blank lines).
-        // an un-indented one-line block is a title; an indented block
-        // is a stanza belonging to the most recent title.
-        const blocks = text.split(/\n{2,}/).map(b => b.replace(/\s+$/, ''));
-        let currentTitle = '';
+        // 2. Split by two or more newlines now that \r is removed
+        const blocks = text.split(/\n{2,}/).map(b => b.trim());
+        let currentTitle = 'Leaves of Grass'; // Fallback title
         const leaves = [];
 
         for (const block of blocks) {
-            if (!block.trim()) continue;
-            const isIndented = /^[ \t]/.test(block);
+            if (!block) continue;
 
-            if (!isIndented) {
-                const line = block.split('\n')[0].trim();
-                // skip ALL-CAPS section dividers like "BOOK I.  INSCRIPTIONS"
-                if (line && line !== line.toUpperCase()) currentTitle = line;
+            const lines = block.split('\n').map(l => l.trim());
+            
+            // A block with 1 line is likely a title or a section divider
+            if (lines.length === 1) {
+                const line = lines[0];
+                // Skip generic Gutenberg headers or long line dividers, otherwise treat as title
+                if (!line.startsWith('BOOK') && line.length < 60) {
+                    currentTitle = line;
+                }
                 continue;
             }
 
-            const stanza = block.split('\n').map(l => l.replace(/^\s+/, '')).join('\n').trim();
-            if (stanza.length > 5) leaves.push({ title: currentTitle, text: stanza });
+            // A block with multiple lines is a stanza
+            // Clean up individual line padding within the stanza
+            const stanza = lines.join('\n');
+            if (stanza.length > 5) {
+                leaves.push({ title: currentTitle, text: stanza });
+            }
         }
 
         if (leaves.length === 0) {
@@ -80,13 +89,16 @@ async function displayRegexMatch() {
             return;
         }
 
+        // Select a random stanza
         const leaf = leaves[Math.floor(Math.random() * leaves.length)];
+        
+        // Escape HTML to prevent XSS injection
         const escape = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        const lines = escape(leaf.text).split('\n').join('<br>');
+        const formattedLines = escape(leaf.text).split('\n').join('<br>');
 
         displayArea.innerHTML = `
-            <p class="leaf-title">${escape(leaf.title)}</p>
-            <p class="leaf-body poem-reveal">${lines}</p>
+            <p class="leaf-title" style="font-weight: bold; margin-bottom: 0.5em;">${escape(leaf.title)}</p>
+            <p class="leaf-body poem-reveal" style="line-height: 1.5;">${formattedLines}</p>
         `;
     } catch (err) {
         displayArea.innerHTML = `<p style="color:red">ERROR: ${err.message}</p>`;

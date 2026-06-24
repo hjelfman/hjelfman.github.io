@@ -16,7 +16,6 @@ if you want to get coffee with me or otherwise meet me email me at hazel@hjelfma
 </div>
 
 <div id="output">
-        whitman loading
 </div>
 
 <ul class="list-reset">

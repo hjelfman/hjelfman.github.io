@@ -4,10 +4,10 @@ layout: default
 
 hi! my name is hazel! i currently live in new york city and work in the chemicals industry. in my free time i read, write, run, boulder, cook, and go to shows. some of my writing is below.
 
-- currently reading: how nations fail, putafeminista
-- currently cooking: brookies
+- currently reading: demons, putafeminista
+- currently cooking: smores
 - currently bouldering: v4
-- currently listening: girlfriend by hemlocke springs 
+- currently listening: call it easy by racing mount pleasant 
 
 if you want to get coffee with me or otherwise meet me email me at hazel@hjelfman.com.
 

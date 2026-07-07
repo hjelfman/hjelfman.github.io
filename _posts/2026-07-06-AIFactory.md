@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cautionary Note: AI in Factory Automation"
-date: 2026-06-07
+date: 2026-07-06
 categories: misc
 ---
 

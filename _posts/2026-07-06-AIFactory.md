@@ -12,7 +12,7 @@ Many people are concerned about AI automation in factories. Others believe that 
 ### Primary issue: GUIs
 
 <figure>
-<img src="http://hjelfman.com/deltav.jpeg">
+<img width="100%" src="http://hjelfman.com/deltav.jpeg">
 <figcaption>graphic design is my passionj</figcaption>
 </figure>
 

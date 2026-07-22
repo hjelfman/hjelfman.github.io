@@ -244,3 +244,71 @@ ul.list-reset li:nth-child(odd) {
     background: var(--menu-red);
     border-radius: 6px;
 }
+
+/* Container Layout */
+.page-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Main Post / Bio Section */
+.main-content {
+  flex: 2;
+  min-width: 0;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  flex: 1;
+  min-width: 220px;
+  border-left: 1px solid currentColor;
+  padding-left: 1.5rem;
+  font-size: 0.9em;
+}
+
+.sidebar h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-transform: lowercase;
+}
+
+.sidebar section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.sidebar a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Mobile Responsive adjustment */
+@media (max-width: 768px) {
+  .page-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .sidebar {
+    border-left: none;
+    border-top: 1px solid currentColor;
+    padding-left: 0;
+    padding-top: 1.5rem;
+  }
+}
+

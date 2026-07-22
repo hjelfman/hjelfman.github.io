@@ -3,10 +3,7 @@ layout: default
 title: hjelfman
 ---
 
-<div class="page-container">
-  <main class="main-content">
-
-# hjelfman  
+# hjelfman
 ## the butterfly conservatory  
 
 hi! my name is hazel! i currently live in new york city and work in the chemicals industry. in my free time i read, write, run, boulder, cook, and go to shows. some of my writing is below.
@@ -19,6 +16,10 @@ currently listening: call it easy by racing mount pleasant
 if you want to get coffee with me or otherwise meet me email me at hazel@hjelfman.com.
 
 ---
+
+<div class="page-container">
+  <main class="main-content">
+  
 
 {% for post in site.posts %}
   <div class="post-item">

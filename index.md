@@ -3,9 +3,6 @@ layout: default
 title: hjelfman
 ---
 
-# hjelfman
-## the butterfly conservatory  
-
 hi! my name is hazel! i currently live in new york city and work in the chemicals industry. in my free time i read, write, run, boulder, cook, and go to shows. some of my writing is below.
 
 currently reading: demons, putafeminista  

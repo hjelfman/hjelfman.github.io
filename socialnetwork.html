@@ -6,6 +6,8 @@
     <title>Network Growth Simulator & Analytics</title>
     <!-- Chart.js CDN for Analytics -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Gifshot CDN for Client-side GIF Export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gifshot/0.3.2/gifshot.min.js"></script>
     <style>
         :root {
             --bg-color: #f8f9fa;
@@ -32,9 +34,22 @@
         #sidebar h2 { font-size: 1.1rem; margin-top: 15px; margin-bottom: 10px; border-bottom: 2px solid var(--accent-color); padding-bottom: 5px; }
         #sidebar h2:first-of-type { margin-top: 0; }
         
+        .total-badge {
+            background: #eef7fc;
+            color: var(--accent-color);
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            border: 1px solid #d0e6f7;
+            display: flex;
+            justify-content: space-between;
+        }
+
         .control-group { margin-bottom: 12px; }
         .control-group label { display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
-        .control-group input[type="number"], .control-group input[type="range"] { width: 100%; padding: 4px; }
+        .control-group input[type="number"], .control-group input[type="range"] { width: 100%; padding: 6px; border: 1px solid var(--border-color); border-radius: 4px; }
         
         #btn-run {
             width: 100%;
@@ -62,14 +77,18 @@
             border: 1px solid var(--border-color);
             margin-bottom: 15px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
         }
 
-        .scrubber-container { display: flex; align-items: center; gap: 12px; }
+        .scrubber-container { display: flex; align-items: center; gap: 12px; flex-grow: 1; }
         .scrubber-container input { flex-grow: 1; }
         .scrubber-val { font-weight: bold; font-size: 1.1rem; min-width: 80px; text-align: right; }
 
-        #btn-play {
-            padding: 6px 14px;
+        .action-btn {
+            padding: 7px 14px;
             background: var(--accent-color);
             color: white;
             border: none;
@@ -78,8 +97,10 @@
             cursor: pointer;
             font-size: 0.85rem;
             transition: background 0.2s;
+            white-space: nowrap;
         }
-        #btn-play:hover { background: #2980b9; }
+        .action-btn:hover { background: #2980b9; }
+        .action-btn:disabled { background: #bdc3c7; cursor: not-allowed; }
 
         /* Tabs */
         .tab-buttons { display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); }
@@ -134,6 +155,10 @@
     <!-- SIDEBAR CONTROLS -->
     <div id="sidebar">
         <h2>1. Node & Group Setup</h2>
+        <div class="total-badge">
+            <span>Total Active Nodes:</span>
+            <span id="val-total-nodes">80</span>
+        </div>
         <div class="control-group">
             <label>Circle Nodes <span id="val-circles">45</span></label>
             <input type="number" id="num-circles" value="45" min="0" max="200">
@@ -195,11 +220,12 @@
         <!-- Timeline Scrubber & Playback Controls -->
         <div id="timeline-card">
             <div class="scrubber-container">
-                <button id="btn-play">▶ Play</button>
-                <label style="font-weight: bold;">🔍 Frame Timeline:</label>
+                <button id="btn-play" class="action-btn">▶ Play</button>
+                <label style="font-weight: bold; white-space: nowrap;">🔍 Frame Timeline:</label>
                 <input type="range" id="frame-scrubber" min="0" max="50" value="0">
                 <div class="scrubber-val" id="scrubber-text">0 / 50</div>
             </div>
+            <button id="btn-export-gif" class="action-btn" style="background: #27ae60;">🎬 Export GIF</button>
         </div>
 
         <!-- Navigation Tabs -->
@@ -276,9 +302,23 @@
             'C': [46, 204, 113]   // Green
         };
 
-        // UI Label Sync
-        document.querySelectorAll('input[type="range"]').forEach(input => {
+        // UI Label & Node Count Sync
+        function updateInputDisplays() {
+            const nC = parseInt(document.getElementById('num-circles').value) || 0;
+            const nSq = parseInt(document.getElementById('num-squares').value) || 0;
+            const nTri = parseInt(document.getElementById('num-triangles').value) || 0;
+            const nSt = parseInt(document.getElementById('num-stars').value) || 0;
+
+            document.getElementById('val-circles').innerText = nC;
+            document.getElementById('val-squares').innerText = nSq;
+            document.getElementById('val-triangles').innerText = nTri;
+            document.getElementById('val-stars').innerText = nSt;
+            document.getElementById('val-total-nodes').innerText = nC + nSq + nTri + nSt;
+        }
+
+        document.querySelectorAll('input').forEach(input => {
             input.addEventListener('input', (e) => {
+                updateInputDisplays();
                 const lbl = document.getElementById('lbl-' + e.target.id.replace('p-', '').replace('num-', '').replace('layout-', '').replace('min-', ''));
                 if (lbl) {
                     if (e.target.id.startsWith('p-')) lbl.innerText = e.target.value + '%';
@@ -294,7 +334,7 @@
             if (tabName === 'viz') {
                 document.querySelectorAll('.tab-btn')[0].classList.add('active');
                 document.getElementById('tab-viz').classList.add('active');
-                renderFrame(activeFrame);
+                renderFrameToCanvas(document.getElementById('graphCanvas'), activeFrame);
             } else {
                 document.querySelectorAll('.tab-btn')[1].classList.add('active');
                 document.getElementById('tab-analytics').classList.add('active');
@@ -320,7 +360,7 @@
                 }
                 activeFrame++;
                 updateFrameUI(activeFrame);
-            }, 120); // Playback interval (~8 fps)
+            }, 120);
         }
 
         function pauseAnimation() {
@@ -342,7 +382,7 @@
             scrubber.value = frameIdx;
             document.getElementById('scrubber-text').innerText = `${frameIdx} / ${scrubber.max}`;
 
-            renderFrame(frameIdx);
+            renderFrameToCanvas(document.getElementById('graphCanvas'), frameIdx);
             if (document.getElementById('tab-analytics').classList.contains('active')) {
                 updateAnalytics(frameIdx);
             }
@@ -394,7 +434,6 @@
                 let dispX = new Float32Array(nodesCount);
                 let dispY = new Float32Array(nodesCount);
 
-                // Repulsion
                 for (let i = 0; i < nodesCount; i++) {
                     for (let j = i + 1; j < nodesCount; j++) {
                         let dx = pos[i].x - pos[j].x;
@@ -408,7 +447,6 @@
                     }
                 }
 
-                // Attraction
                 for (let u = 0; u < nodesCount; u++) {
                     for (let v of adj[u]) {
                         if (u < v) {
@@ -424,7 +462,6 @@
                     }
                 }
 
-                // Update Positions
                 for (let i = 0; i < nodesCount; i++) {
                     let dx = dispX[i];
                     let dy = dispY[i];
@@ -461,7 +498,7 @@
 
         // --- 7. SIMULATION EXECUTION ---
         function runSimulation() {
-            pauseAnimation(); // Stop any active playback loop
+            pauseAnimation();
 
             const nC = parseInt(document.getElementById('num-circles').value) || 0;
             const nSq = parseInt(document.getElementById('num-squares').value) || 0;
@@ -482,20 +519,19 @@
 
             const rand = mulberry32(seed);
 
-            // Setup Shapes
+            // Setup Shapes Array dynamically
             let shapes = [
                 ...Array(nC).fill('circle'),
                 ...Array(nSq).fill('square'),
                 ...Array(nTri).fill('triangle'),
                 ...Array(nSt).fill('star')
             ];
-            // Fisher-Yates Shuffle
+
             for (let i = shapes.length - 1; i > 0; i--) {
                 const j = Math.floor(rand() * (i + 1));
                 [shapes[i], shapes[j]] = [shapes[j], shapes[i]];
             }
 
-            // Assign Groups
             const groups = ['A', 'B', 'C'];
             let nodeGroups = [];
             for (let i = 0; i < totalNodes; i++) {
@@ -508,7 +544,6 @@
                 nodeGroups.push(gSet);
             }
 
-            // Calculate Node Colors
             let nodeColors = nodeGroups.map(gSet => {
                 let arr = Array.from(gSet);
                 let r = Math.round(arr.reduce((s, g) => s + BASE_COLORS[g][0], 0) / arr.length);
@@ -520,7 +555,6 @@
             let specialNodes = new Set();
             shapes.forEach((s, i) => { if (s === 'square' || s === 'triangle') specialNodes.add(i); });
 
-            // Initialize Adjacency & Positions
             let adj = Array.from({ length: totalNodes }, () => new Set());
             let pos = Array.from({ length: totalNodes }, (_, i) => {
                 let angle = (2 * Math.PI * i) / totalNodes;
@@ -547,7 +581,6 @@
                 simData.historyG.push(edgeList);
                 simData.historyPos.push(pos.map(p => ({ x: p.x, y: p.y })));
 
-                // Calculate Metrics
                 let maxEdges = (totalNodes * (totalNodes - 1)) / 2;
                 simData.metrics.edgeCount.push(totalEdges);
                 simData.metrics.density.push(maxEdges > 0 ? totalEdges / maxEdges : 0);
@@ -555,9 +588,8 @@
                 simData.metrics.components.push(countComponents(totalNodes, adj));
             }
 
-            saveState(); // Frame 0
+            saveState();
 
-            // Simulation Loop
             for (let step = 1; step <= steps; step++) {
                 let nonEdges = [];
                 for (let u = 0; u < totalNodes; u++) {
@@ -565,7 +597,6 @@
                         if (!adj[u].has(v)) nonEdges.push([u, v]);
                     }
                 }
-                // Shuffle non-edges
                 for (let i = nonEdges.length - 1; i > 0; i--) {
                     const j = Math.floor(rand() * (i + 1));
                     [nonEdges[i], nonEdges[j]] = [nonEdges[j], nonEdges[i]];
@@ -588,33 +619,29 @@
                 saveState();
             }
 
-            // Update UI Slider
             const scrubber = document.getElementById('frame-scrubber');
             scrubber.max = steps;
 
             initCharts(steps);
 
-            // Automatically start animation from frame 0
             activeFrame = 0;
             updateFrameUI(0);
             playAnimation();
         }
 
         // --- 8. CANVAS RENDERING ENGINE ---
-        function renderFrame(frameIdx) {
-            const canvas = document.getElementById('graphCanvas');
-            const ctx = canvas.getContext('2d');
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        function renderFrameToCanvas(canvasTarget, frameIdx) {
+            const ctx = canvasTarget.getContext('2d');
+            ctx.clearRect(0, 0, canvasTarget.width, canvasTarget.height);
 
             const edges = simData.historyG[frameIdx];
             const pos = simData.historyPos[frameIdx];
             if (!pos) return;
 
-            const w = canvas.width;
-            const h = canvas.height;
+            const w = canvasTarget.width;
+            const h = canvasTarget.height;
             const padding = 50;
 
-            // Normalize Coordinates
             let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
             pos.forEach(p => {
                 if (p.x < minX) minX = p.x; if (p.x > maxX) maxX = p.x;
@@ -630,7 +657,6 @@
                 };
             }
 
-            // Draw Edges
             ctx.strokeStyle = "rgba(85, 85, 85, 0.22)";
             ctx.lineWidth = 1;
             edges.forEach(([u, v]) => {
@@ -642,7 +668,6 @@
                 ctx.stroke();
             });
 
-            // Draw Nodes
             pos.forEach((p, i) => {
                 let pt = toScreen(p);
                 let shape = simData.shapes[i];
@@ -688,7 +713,50 @@
             ctx.closePath();
         }
 
-        // --- 9. ANALYTICS & CHARTS ENGINE ---
+        // --- 9. CLIENT-SIDE GIF EXPORT ---
+        function exportGIF() {
+            pauseAnimation();
+            const btn = document.getElementById('btn-export-gif');
+            const originalText = btn.innerText;
+            btn.innerText = "⏳ Rendering GIF...";
+            btn.disabled = true;
+
+            setTimeout(() => {
+                const totalFrames = simData.historyG.length;
+                let frameImages = [];
+
+                const offCanvas = document.createElement('canvas');
+                offCanvas.width = 500;
+                offCanvas.height = 500;
+
+                for (let i = 0; i < totalFrames; i++) {
+                    renderFrameToCanvas(offCanvas, i);
+                    frameImages.push(offCanvas.toDataURL('image/png'));
+                }
+
+                gifshot.createGIF({
+                    images: frameImages,
+                    interval: 0.12,
+                    gifWidth: 500,
+                    gifHeight: 500
+                }, function(obj) {
+                    if (!obj.error) {
+                        const link = document.createElement('a');
+                        link.href = obj.image;
+                        link.download = 'network_simulation.gif';
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    } else {
+                        alert("Error rendering GIF: " + obj.error);
+                    }
+                    btn.innerText = originalText;
+                    btn.disabled = false;
+                });
+            }, 50);
+        }
+
+        // --- 10. ANALYTICS & CHARTS ENGINE ---
         function initCharts(steps) {
             const labels = Array.from({ length: steps + 1 }, (_, i) => i);
 
@@ -727,7 +795,6 @@
             document.getElementById('kpi-degree').innerText = simData.metrics.avgDegree[frameIdx].toFixed(2);
             document.getElementById('kpi-components').innerText = simData.metrics.components[frameIdx];
 
-            // Degree Distribution Calculation for Active Frame
             const edges = simData.historyG[frameIdx];
             const numNodes = simData.shapes.length;
             let degrees = new Array(numNodes).fill(0);
@@ -745,18 +812,22 @@
             chartDegree.update();
         }
 
-        // --- 10. EVENT LISTENERS ---
+        // --- 11. EVENT LISTENERS ---
         document.getElementById('btn-run').addEventListener('click', runSimulation);
         document.getElementById('btn-play').addEventListener('click', toggleAnimation);
+        document.getElementById('btn-export-gif').addEventListener('click', exportGIF);
 
         document.getElementById('frame-scrubber').addEventListener('input', (e) => {
-            pauseAnimation(); // Pause playback if user manually drags scrubber
+            pauseAnimation();
             activeFrame = parseInt(e.target.value);
             updateFrameUI(activeFrame);
         });
 
-        // Initialize on page load
-        window.onload = runSimulation;
+        // Initialize default setup on page load
+        window.onload = () => {
+            updateInputDisplays();
+            runSimulation();
+        };
     </script>
 </body>
 </html>

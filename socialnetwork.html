@@ -204,8 +204,8 @@
             <input type="range" id="num-steps" min="10" max="100" value="50">
         </div>
         <div class="control-group">
-            <label>Layout Repulsion (k) <span id="lbl-k">0.8</span></label>
-            <input type="range" id="layout-k" min="0.1" max="2.0" step="0.05" value="0.8">
+            <label>Layout Repulsion (k) <span id="lbl-k">1.8</span></label>
+            <input type="range" id="layout-k" min="0.2" max="4.0" step="0.1" value="1.8">
         </div>
         <div class="control-group">
             <label>Random Seed</label>
@@ -425,15 +425,16 @@
             return violates;
         }
 
-        // --- 5. SPRING LAYOUT ENGINE ---
-        function updateLayout(nodesCount, adj, pos, k, iterations = 2) {
-            const area = 4.0;
+        // --- 5. ENHANCED SPRING LAYOUT ENGINE ---
+        function updateLayout(nodesCount, adj, pos, k, iterations = 5) {
+            const area = 9.0; // Larger workspace area for better separation
             const k_dist = k * Math.sqrt(area / nodesCount);
             
             for (let iter = 0; iter < iterations; iter++) {
                 let dispX = new Float32Array(nodesCount);
                 let dispY = new Float32Array(nodesCount);
 
+                // Strong Repulsion Force between all node pairs
                 for (let i = 0; i < nodesCount; i++) {
                     for (let j = i + 1; j < nodesCount; j++) {
                         let dx = pos[i].x - pos[j].x;
@@ -447,13 +448,14 @@
                     }
                 }
 
+                // Balanced Attraction Force along existing edges
                 for (let u = 0; u < nodesCount; u++) {
                     for (let v of adj[u]) {
                         if (u < v) {
                             let dx = pos[u].x - pos[v].x;
                             let dy = pos[u].y - pos[v].y;
                             let dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
-                            let force = (dist * dist) / k_dist;
+                            let force = (dist * dist) / (k_dist * 1.5); // Moderate attraction to prevent over-clumping
                             dispX[u] -= (dx / dist) * force;
                             dispY[u] -= (dy / dist) * force;
                             dispX[v] += (dx / dist) * force;
@@ -462,11 +464,12 @@
                     }
                 }
 
+                // Smooth position updates
                 for (let i = 0; i < nodesCount; i++) {
                     let dx = dispX[i];
                     let dy = dispY[i];
                     let dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
-                    let maxDisp = 0.1;
+                    let maxDisp = 0.08;
                     pos[i].x += (dx / dist) * Math.min(dist, maxDisp);
                     pos[i].y += (dy / dist) * Math.min(dist, maxDisp);
                 }
@@ -558,7 +561,7 @@
             let adj = Array.from({ length: totalNodes }, () => new Set());
             let pos = Array.from({ length: totalNodes }, (_, i) => {
                 let angle = (2 * Math.PI * i) / totalNodes;
-                return { x: Math.cos(angle), y: Math.sin(angle) };
+                return { x: Math.cos(angle) * 1.5, y: Math.sin(angle) * 1.5 };
             });
 
             simData = {
@@ -615,7 +618,7 @@
                     }
                 }
 
-                updateLayout(totalNodes, adj, pos, layoutK, 2);
+                updateLayout(totalNodes, adj, pos, layoutK, 5);
                 saveState();
             }
 
@@ -632,7 +635,10 @@
         // --- 8. CANVAS RENDERING ENGINE ---
         function renderFrameToCanvas(canvasTarget, frameIdx) {
             const ctx = canvasTarget.getContext('2d');
-            ctx.clearRect(0, 0, canvasTarget.width, canvasTarget.height);
+            
+            // Paint solid background to prevent transparent GIF frame stacking
+            ctx.fillStyle = "#ffffff";
+            ctx.fillRect(0, 0, canvasTarget.width, canvasTarget.height);
 
             const edges = simData.historyG[frameIdx];
             const pos = simData.historyPos[frameIdx];
@@ -640,7 +646,7 @@
 
             const w = canvasTarget.width;
             const h = canvasTarget.height;
-            const padding = 50;
+            const padding = 55; // Generous padding to keep spread-out nodes in bounds
 
             let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
             pos.forEach(p => {
@@ -657,8 +663,9 @@
                 };
             }
 
-            ctx.strokeStyle = "rgba(85, 85, 85, 0.22)";
-            ctx.lineWidth = 1;
+            // High visibility, crisp edge rendering
+            ctx.strokeStyle = "rgba(70, 80, 95, 0.15)";
+            ctx.lineWidth = 0.75;
             edges.forEach(([u, v]) => {
                 let p1 = toScreen(pos[u]);
                 let p2 = toScreen(pos[v]);
@@ -668,27 +675,28 @@
                 ctx.stroke();
             });
 
+            // Clean Node Drawing
             pos.forEach((p, i) => {
                 let pt = toScreen(p);
                 let shape = simData.shapes[i];
                 let isMulti = simData.nodeGroups[i].size > 1;
 
                 ctx.fillStyle = simData.nodeColors[i];
-                ctx.strokeStyle = isMulti ? "#f1c40f" : (shape === 'square' || shape === 'triangle' ? "black" : "none");
-                ctx.lineWidth = isMulti ? 2.5 : 1.2;
+                ctx.strokeStyle = isMulti ? "#f1c40f" : (shape === 'square' || shape === 'triangle' ? "#1a252f" : "none");
+                ctx.lineWidth = isMulti ? 2.2 : 1.0;
 
                 ctx.beginPath();
                 if (shape === 'circle') {
-                    ctx.arc(pt.x, pt.y, 6, 0, 2 * Math.PI);
+                    ctx.arc(pt.x, pt.y, 5, 0, 2 * Math.PI);
                 } else if (shape === 'square') {
-                    ctx.rect(pt.x - 6, pt.y - 6, 12, 12);
+                    ctx.rect(pt.x - 4.5, pt.y - 4.5, 9, 9);
                 } else if (shape === 'triangle') {
-                    ctx.moveTo(pt.x, pt.y - 8);
-                    ctx.lineTo(pt.x - 7, pt.y + 6);
-                    ctx.lineTo(pt.x + 7, pt.y + 6);
+                    ctx.moveTo(pt.x, pt.y - 6.5);
+                    ctx.lineTo(pt.x - 5.5, pt.y + 5);
+                    ctx.lineTo(pt.x + 5.5, pt.y + 5);
                     ctx.closePath();
                 } else if (shape === 'star') {
-                    drawStar(ctx, pt.x, pt.y, 5, 10, 4);
+                    drawStar(ctx, pt.x, pt.y, 5, 8, 3.5);
                 }
                 ctx.fill();
                 if (ctx.strokeStyle !== "none") ctx.stroke();

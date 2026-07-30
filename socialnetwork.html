@@ -64,9 +64,22 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
 
-        .scrubber-container { display: flex; align-items: center; gap: 15px; margin-top: 5px; }
+        .scrubber-container { display: flex; align-items: center; gap: 12px; }
         .scrubber-container input { flex-grow: 1; }
         .scrubber-val { font-weight: bold; font-size: 1.1rem; min-width: 80px; text-align: right; }
+
+        #btn-play {
+            padding: 6px 14px;
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: background 0.2s;
+        }
+        #btn-play:hover { background: #2980b9; }
 
         /* Tabs */
         .tab-buttons { display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); }
@@ -179,12 +192,13 @@
 
     <!-- MAIN WORKSPACE -->
     <div id="main-content">
-        <!-- Timeline Scrubber -->
+        <!-- Timeline Scrubber & Playback Controls -->
         <div id="timeline-card">
             <div class="scrubber-container">
-                <label style="font-weight: bold;">🔍 Scrub Frame Timeline:</label>
-                <input type="range" id="frame-scrubber" min="0" max="50" value="50">
-                <div class="scrubber-val" id="scrubber-text">50 / 50</div>
+                <button id="btn-play">▶ Play</button>
+                <label style="font-weight: bold;">🔍 Frame Timeline:</label>
+                <input type="range" id="frame-scrubber" min="0" max="50" value="0">
+                <div class="scrubber-val" id="scrubber-text">0 / 50</div>
             </div>
         </div>
 
@@ -251,6 +265,8 @@
         };
 
         let activeFrame = 0;
+        let animTimer = null;
+        let isPlaying = false;
         let chartEdges, chartComponents, chartDegree;
 
         // Base Colors
@@ -286,7 +302,53 @@
             }
         }
 
-        // --- 3. DISTANCE CONSTRAINT BFS CHECK ---
+        // --- 3. ANIMATION CONTROLS ---
+        function playAnimation() {
+            if (isPlaying) return;
+            isPlaying = true;
+            document.getElementById('btn-play').innerText = "⏸ Pause";
+
+            const maxFrame = parseInt(document.getElementById('frame-scrubber').max);
+            if (activeFrame >= maxFrame) {
+                activeFrame = 0;
+            }
+
+            animTimer = setInterval(() => {
+                if (activeFrame >= maxFrame) {
+                    pauseAnimation();
+                    return;
+                }
+                activeFrame++;
+                updateFrameUI(activeFrame);
+            }, 120); // Playback interval (~8 fps)
+        }
+
+        function pauseAnimation() {
+            isPlaying = false;
+            if (animTimer) {
+                clearInterval(animTimer);
+                animTimer = null;
+            }
+            document.getElementById('btn-play').innerText = "▶ Play";
+        }
+
+        function toggleAnimation() {
+            if (isPlaying) pauseAnimation();
+            else playAnimation();
+        }
+
+        function updateFrameUI(frameIdx) {
+            const scrubber = document.getElementById('frame-scrubber');
+            scrubber.value = frameIdx;
+            document.getElementById('scrubber-text').innerText = `${frameIdx} / ${scrubber.max}`;
+
+            renderFrame(frameIdx);
+            if (document.getElementById('tab-analytics').classList.contains('active')) {
+                updateAnalytics(frameIdx);
+            }
+        }
+
+        // --- 4. DISTANCE CONSTRAINT BFS CHECK ---
         function violatesConstraint(adj, u, v, specialNodes, minDist) {
             adj[u].add(v);
             adj[v].add(u);
@@ -323,7 +385,7 @@
             return violates;
         }
 
-        // --- 4. SPRING LAYOUT ENGINE ---
+        // --- 5. SPRING LAYOUT ENGINE ---
         function updateLayout(nodesCount, adj, pos, k, iterations = 2) {
             const area = 4.0;
             const k_dist = k * Math.sqrt(area / nodesCount);
@@ -374,7 +436,7 @@
             }
         }
 
-        // --- 5. CONNECTED COMPONENTS METRIC ---
+        // --- 6. CONNECTED COMPONENTS METRIC ---
         function countComponents(nodesCount, adj) {
             let visited = new Set();
             let comps = 0;
@@ -397,8 +459,10 @@
             return comps;
         }
 
-        // --- 6. SIMULATION EXECUTION ---
+        // --- 7. SIMULATION EXECUTION ---
         function runSimulation() {
+            pauseAnimation(); // Stop any active playback loop
+
             const nC = parseInt(document.getElementById('num-circles').value) || 0;
             const nSq = parseInt(document.getElementById('num-squares').value) || 0;
             const nTri = parseInt(document.getElementById('num-triangles').value) || 0;
@@ -527,18 +591,16 @@
             // Update UI Slider
             const scrubber = document.getElementById('frame-scrubber');
             scrubber.max = steps;
-            scrubber.value = steps;
-            activeFrame = steps;
-            document.getElementById('scrubber-text').innerText = `${steps} / ${steps}`;
 
             initCharts(steps);
-            renderFrame(activeFrame);
-            if (document.getElementById('tab-analytics').classList.contains('active')) {
-                updateAnalytics(activeFrame);
-            }
+
+            // Automatically start animation from frame 0
+            activeFrame = 0;
+            updateFrameUI(0);
+            playAnimation();
         }
 
-        // --- 7. CANVAS RENDERING ENGINE ---
+        // --- 8. CANVAS RENDERING ENGINE ---
         function renderFrame(frameIdx) {
             const canvas = document.getElementById('graphCanvas');
             const ctx = canvas.getContext('2d');
@@ -626,7 +688,7 @@
             ctx.closePath();
         }
 
-        // --- 8. ANALYTICS & CHARTS ENGINE ---
+        // --- 9. ANALYTICS & CHARTS ENGINE ---
         function initCharts(steps) {
             const labels = Array.from({ length: steps + 1 }, (_, i) => i);
 
@@ -683,16 +745,14 @@
             chartDegree.update();
         }
 
-        // --- 9. EVENT LISTENERS ---
+        // --- 10. EVENT LISTENERS ---
         document.getElementById('btn-run').addEventListener('click', runSimulation);
+        document.getElementById('btn-play').addEventListener('click', toggleAnimation);
 
         document.getElementById('frame-scrubber').addEventListener('input', (e) => {
+            pauseAnimation(); // Pause playback if user manually drags scrubber
             activeFrame = parseInt(e.target.value);
-            document.getElementById('scrubber-text').innerText = `${activeFrame} / ${e.target.max}`;
-            renderFrame(activeFrame);
-            if (document.getElementById('tab-analytics').classList.contains('active')) {
-                updateAnalytics(activeFrame);
-            }
+            updateFrameUI(activeFrame);
         });
 
         // Initialize on page load

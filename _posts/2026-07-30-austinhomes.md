@@ -5,6 +5,8 @@ date: 2026-07-31
 categories: misc
 ---
 
+# austin (an indulgence in memory)
+
 "I take off the corner of 24th & Lamar, soles grinding into the pavement," began my final essay submitted in college. Today, three years past, I ran the same road at five in the morning to beat the summer heat, early enough that not even the birds were calling yet from the top of the cottonwoods and the roads not yet crowded with the inevitable slowdowns which define the workdays here. In these intervening years, Austin has grown; I rather enjoy the new complexes and neon signs. It would be silly to demand that my college town be frozen in amber. Though it is not for me, I can see how Austin would be appealing to live in. Though, as in any other city, what made Austin for me was the people.
 
 College towns are naturally transitory. Every four years the population replenishes to form new associations with their environment. Hopefully the newer generation will not think of COVID when they see the medical center. Similarly, they may not be as excited to tour every restroom in the math building. These associations live only in our heads; it is not that nothing remains here; some friends and family persist through the feverish summers, but the mass which forms memory is gone. Walking around is a museum of nostalgia, even if places have changed.

@@ -5,10 +5,13 @@ title: hjelfman
 
 hi! my name is hazel! i currently live in new york city and work in the chemicals industry. in my free time i read, write, run, boulder, cook, and go to shows. some of my writing is below.
 
-currently reading: the possessed, the search for modern china 
-currently cooking: applesauce tofu 
+currently reading: working, the search for modern china 
+
+currently cooking: brown butter rice crispies
+
 currently bouldering: v4  
-currently listening: call it easy by racing mount pleasant  
+
+currently listening: jewish american prairie princess  
 
 if you want to get coffee with me or otherwise meet me email me at hazel@hjelfman.com.
 
